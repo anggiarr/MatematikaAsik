@@ -1,0 +1,2238 @@
+<html>
+    <head>
+        <title style="font-family:Arial, Helvetica, sans-serif">SPLDV dan SPtLDV</title>
+        
+
+        <!-- Fonts Google -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+        
+        <!-- My Style -->
+    <link rel="stylesheet" href="style.css">
+        
+        
+        <style type="text/css"> 
+        body {
+            background-color:white;
+        }
+
+        .float-kiri {
+            float:left ;
+          }
+
+        
+      
+        
+        
+        </style>
+    </head>
+
+    <body>
+      <div class="container">
+
+        <div class="sidebar">
+            <div class="header">
+              <div class="list-item" >
+                <a href="#" >
+                    <img margin="auto" src ="icon/Logo.png" alt="" class="icon" style="height:50px;width:50px">
+                    
+                    <span  style="position:absolute;font-size:larger"  class="description-header">Matematika <br><br> Asik</span>
+                </a>
+            </div>
+            <br>
+
+                <div class="illustration">
+                    <img src="icon/icon2.png" alt="" style="height:240px;width:240px">
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="list-item">
+                    <a href="Profil.html">
+                        <img style="height:20px;width:20px" src="icon/user-solid.svg" alt="" class="icon">
+                        <span class="description">Profil</span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="Tentang.html">
+                        <img style="height:20px;width:20px" src="icon/gear-solid.svg" alt="" class="icon">
+                        <span class="description">Tentang</span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="Sistem Persamaan dan Pertidaksamaan Linear Dua Variabel.html">
+                        <img style="height:20px;width:20px" src="icon/book-solid.svg" alt="" class="icon">
+                        <span class="description">Buku</span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="Kata Pengantar.html">
+                        <img style="height:20px;width:20px" src="icon/comment-dots-solid.svg" alt="" class="icon">
+                        <span class="description">Kata Pengantar</span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="Peta Konsep.html">
+                        <img style="height:20px;width:20px" src="icon/sitemap-solid.svg" alt="" class="icon">
+                        <span class="description">Peta Konsep</span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="Pendahuluan.html">
+                        <img style="height:20px;width:20px" src="icon/door-open-solid.svg" alt="" class="icon">
+                        <span class="description">Pendahuluan</span>
+                    </a>
+                </div>
+                <div class="list-item">
+                    <a href="#">
+                        <img style="height:20px;width:20px" src="icon/newspaper-solid.svg" alt="" class="icon">
+                        <span class="description" onclick="document.getElementById('x').style.display='block'; document.getElementById('up1').style.display='block'">Materi</span>
+                    </a>
+                    <img src="icon/down-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 0" onclick="document.getElementById('x').style.display='block'; document.getElementById('up1').style.display='block'" >
+                    <img id='up1' src ="icon/up-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 57px;display:none" onclick="document.getElementById('x').style.display='none';document.getElementById('up1').style.display='none'">
+                </div>
+                <ul class="sub-menu" id="x">
+                    <li><a href="Materi SPLDV.html">Sistem Persamaan Linear Dua Variabel</a></li>
+                    <br>
+                    <li><a href="Materi SPtLDV.html">Sistem Pertidaksamaan Linear Dua Variabel</a></li>
+                </ul>
+                <div class="list-item">
+                    <a href="#">
+                        <img style="height:20px;width:20px" src="icon/ringkasan.png" alt="" class="icon">
+                        <span class="description" onclick="document.getElementById('r').style.display='block'; document.getElementById('up5').style.display='block'">Ringkasan</span>
+                    </a>
+                    <img src="icon/down-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 0" onclick="document.getElementById('r').style.display='block'; document.getElementById('up5').style.display='block'" >
+                    <img id='up5' src ="icon/up-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 57px;display:none" onclick="document.getElementById('r').style.display='none';document.getElementById('up5').style.display='none'">
+                </div>
+                <ul class="sub-menu" id="r">
+                    <li><a href="Ringkasan SPLDV.html">Sistem Persamaan Linear Dua Variabel</a></li>
+                    <br>
+                    <li><a href="Ringkasan SPtLDV.html">Sistem Pertidaksamaan Linear Dua Variabel</a></li>
+                </ul>
+
+                <div class="list-item">
+                    <a href="#">
+                        <img style="height:20px;width:20px" src="icon/evaluation.png" alt="" class="icon">
+                        <span class="description" onclick="document.getElementById('l').style.display='block'; document.getElementById('up6').style.display='block'">Latihan & Evaluasi</span>
+                    </a>
+                    <img src="icon/down-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 0" onclick="document.getElementById('l').style.display='block'; document.getElementById('up6').style.display='block'" >
+                    <img id='up6' src ="icon/up-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 57px;display:none" onclick="document.getElementById('l').style.display='none';document.getElementById('up6').style.display='none'">
+                </div>
+                <ul class="sub-menu" id="l">
+                    <li><a href="Latihan SPLDV.html">Sistem Persamaan Linear Dua Variabel</a></li>
+                    <br>
+                    <li><a href="Latihan SPtLDV.html">Sistem Pertidaksamaan Linear Dua Variabel</a></li>
+                </ul>
+
+
+                <div class="list-item">
+                    <a href="#">
+                        <img style="height:20px;width:20px" src="icon/video-solid.svg" alt="" class="icon">
+                        <span class="description" onclick="document.getElementById('y').style.display='block'; document.getElementById('up2').style.display='block'">Video</span>
+                    </a>
+                    <img src="icon/down-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 0" onclick="document.getElementById('y').style.display='block'; document.getElementById('up2').style.display='block'" >
+                    <img id='up2' src ="icon/up-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 60px;display:none" onclick="document.getElementById('y').style.display='none';document.getElementById('up2').style.display='none'">
+                </div>
+                <ul class="sub-menu" id="y">
+                    <li><a href="Video Pembelajaran SPLDV.html">Sistem Persamaan Linear Dua Variabel</a></li>
+                    <br>
+                    <li><a href="Video Pembelajaran SPtLDV.html">Sistem Pertidaksamaan Linear Dua Variabel</a></li>
+                </ul>
+                
+                <div class="list-item">
+                    <a href="#">
+                        <img style="height:20px;width:20px" src="icon/chalkboard-user-solid.svg" alt="" class="icon">
+                        <span class="description" onclick="document.getElementById('z').style.display='block'; document.getElementById('up3').style.display='block'">Applet</span>
+                    </a>
+                    <img src="icon/down-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 0" onclick="document.getElementById('z').style.display='block'; document.getElementById('up3').style.display='block'" >
+                    <img id='up3' src ="icon/up-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 50px;display:none" onclick="document.getElementById('z').style.display='none';document.getElementById('up3').style.display='none'">
+                </div>
+                <ul id="z" class="sub-menu">
+                    <li><a href="Applet SPLDV.html">Sistem Persamaan Linear Dua Variabel</a></li>
+                    <br>
+                    <li><a href="Applet SPtLDV.html">Sistem Pertidaksamaan Linear Dua Variabel</a></li>
+                </ul>
+                
+                <div class="list-item">
+                    <a href="#">
+                        <img style="height:20px;width:20px" src="icon/id-card-clip-solid.svg" alt="" class="icon">
+                        <span class="description" onclick="document.getElementById('a').style.display='block'; document.getElementById('up4').style.display='block'">Biografi</span>
+                    </a>
+                    <img src="icon/down-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 0" onclick="document.getElementById('a').style.display='block'; document.getElementById('up4').style.display='block'" >
+                    <img id='up4' src ="icon/up-arrow.png" style="width:20px;height:10px;margin: 2px 0 2px 40px;display:none" onclick="document.getElementById('a').style.display='none';document.getElementById('up4').style.display='none'">
+                </div>
+                <ul class="sub-menu" id="a">
+                    <li><a href="Biografi Dosen Pengampu.html" style="text-align:left">Biografi Dosen Pengampu</a></li>
+                    <br>
+                    <li><a href="Biografi Penulis.html">Biografi Penulis</a></li>
+                </ul>
+
+            </div>
+            
+        </div>
+
+        <div class="main-content">
+            <div id="menu-button">
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" id="menu-label">
+                    <div id="hamburger"></div>
+                </label>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1 style="color:blueviolet; text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 80px; margin-left: 50px; margin-right: 50px; margin-bottom: 80px" >SISTEM PERSAMAAN DAN PERTIDAKSAMAAN LINEAR DUA VARIABEL
+        <br>
+        <br>
+        <img src ="gambar project PMM/Gambar Cover.jpg" style= "position:relative; margin: auto;">
+    
+     </h1>
+     <br>
+     <br>
+     <h2 style="text-align:center; color:blueviolet; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin:50px; position: relative">Anggi Arrochman
+     <br>
+     <br>
+     Aan Hendrayana</h2>
+     <br>
+     <br>
+     <h2 style="text-align:center; color:blueviolet ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin:50px; position: relative">UNTIRTA PRESS</h2>
+     
+     <br>
+     <br>
+
+    <hr> 
+
+     <h2 id = "KATA PENGANTAR" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">KATA PENGANTAR</h2>
+      <p style="text-align:justify; margin: 50px;font-family: Arial, Helvetica, sans-serif">Segala Puji dan Syukur bagi Allah S.W.T. yang telah melimpahkan rahmat dan karunia-Nya, sehingga saya dapat menyusun buku yang berjudul “Sistem Persamaan dan Pertidaksamaan Linear Dua Variabel” dalam isi dan bentuknya yang sederhana dan Insya Allah mudah dipahami. Buku ini dapat digunakan sebagai bahan pembelajaran siswa siswi sekolah menengah, atau juga sebagai salah satu referensi guru dalam mengajar terkait persamaan dan pertidaksamaan linear dua variabel.
+        <br>
+        <br>
+        Buku “Sistem Persamaan dan Pertidaksamaan Linear Dua Variabel” ini disusun untuk memenuhi tugas projek mata kuliah Pengembangan Multimedia Matematika. Buku ini merupakan buku pemaparan materi mengenai Sistem Persamaan Linear Dua Variabel (SPLDV) dan Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV), yang dimana materi tersebut mulai dipelajari saat di bangku sekolah menengah. 
+        <br>
+        <br>
+        Saya ingin mengucapkan terimakasih kepada Dr. Aan Hendrayana, S. Si., M. Pd., selaku dosen pengampu mata kuliah Pengembangan Multimedia Matematika. Saya juga ingin berterimakasih kepada teman-teman dan pihak-pihak yang telah membantu saya sehingga penyusunan buku ini dapat disusun dengan baik dan lancar.
+        <br>
+        <br>
+        Pada penulisan buku ini, saya menyadari bahwa masih terdapat banyak kekurangan di dalamnya, baik kekurangan secara teknis penulisan, bentuk bukunya, maupun dari segi pemaparan materinya. Oleh karena itu, saya mengharapkan adanya kritik dan saran demi penyempurnaan buku ini di kemudian hari. </p>
+        <br>
+        <br>
+        <br>
+
+      <p style="margin: 50px;font-family: Arial, Helvetica, sans-serif;text-align: right">Tangerang, Maret 2022</p>
+        <br>
+        <br>
+        
+        <p style="margin:50px; font-family:Arial, Helvetica, sans-serif; text-align: right">Anggi Arrochman</p> 
+
+
+        <br>
+        <br>
+        <hr>
+
+     <h2 id="DAFTAR ISI" style="margin:15px; color:blueviolet; text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">DAFTAR ISI</h2>
+        <ul style="color:darkmagenta; margin:50px;font-family:Arial, Helvetica, sans-serif">
+          <li> <a href="#KATA PENGANTAR"><strong>KATA PENGANTAR</strong></a></li>
+          <br>
+          <li><a href="#DAFTAR ISI"><strong>DAFTAR ISI</strong></a></li>
+          <br>
+          <li><a href="#DAFTAR GAMBAR"><strong>DAFTAR GAMBAR</strong></a></li>	
+          <br>
+          <li><a href="#DAFTAR TABEL"><strong>DAFTAR TABEL</strong></a></li>	
+          <br>
+          <li><a href="#PETA KONSEP"><strong>PETA KONSEP</strong></a></li>	
+          <br>
+          <li><a href="#PENDAHULUAN"><strong>PENDAHULUAN</strong></a></li>
+          <br>
+          <br>
+          <li><a href="#BAB 1: SISTEM PERSAMAAN LINEAR DUA VARIABEL"><strong>BAB 1: SISTEM PERSAMAAN LINEAR DUA VARIABEL</strong></a>
+            <p><a href="#1.1 Pengertian Persamaan Linear Dua Variabel"><strong>1.1 Pengertian Persamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#1.2 Sejarah Persamaan Linear"><strong>1.2 Sejarah Persamaan Linear</strong></a></p>
+            <p><a href="#1.3 Pengertian Sistem Persamaan Linear Dua Variabel"><strong>1.3 Pengertian Sistem Persamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#1.4 Bagian-bagian Sistem Persamaan Linear Dua Variabel"><strong>1.4 Bagian-bagian Sistem Persamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#1.5 Metode Penyelesaian Sistem Persamaan Linear Dua Variabel"><strong>1.5 Metode Penyelesaian Sistem Persamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#1.6 Hasil Penyelesaian Sistem Persamaan Linear"><strong>1.6 Hasil Penyelesaian Sistem Persamaan Linear</strong></a></p>
+            <p><a href="#1.7 Jenis Penyelesaian Sistem Persamaan Linear"><strong>1.7 Jenis Penyelesaian Sistem Persamaan Linear</strong></a></p>
+            <p><a href="#1.8 Beberapa Sistem Persamaan yang Dapat Diubah Menjadi Sistem Persamaan Linear"><strong>1.8 Beberapa Sistem Persamaan yang Dapat Diubah Menjadi Sistem Persamaan Linear</strong></a></p>
+            <p><a href="#1.9 Langkah Penyelesaian Soal Cerita yang Berkaitan dengan Sistem Persamaan Linear Dua Variabel"><strong>1.9 Langkah Penyelesaian Soal Cerita yang Berkaitan dengan Sistem Persamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#1.10 Langkah Penyelesaian Sistem Persamaan Linear Dua Variabel"><strong>1.10 Langkah Penyelesaian Sistem Persamaan Linear Dua Variabel</strong></a></p>
+          </li>
+          <li><a href="#Ringkasan BAB 1"><strong>Ringkasan BAB 1</strong></a></li>	
+          <br>
+          <li><a href="#Latihan BAB 1"><strong>Latihan BAB 1</strong></a></li>
+          <br>
+          <li><a href="#Evaluasi BAB 1"><strong>Evaluasi BAB 1</strong></a></li>	
+          <br>
+          <li><a href ="#Applikasi Penerapan SPLDV"><strong>Applikasi Penerapan SPLDV</strong></a> </li>
+          <br>
+          <li><a href="#Video Pembelajaran SPLDV"><strong>Video Pembelajaran SPLDV</strong></a> </li>
+          <br>
+          <br>
+          <li><a href="#BAB 2: SISTEM PERTIDAKSAMAAN LINEAR DUA VARIABEL"><strong>BAB 2: SISTEM PERTIDAKSAMAAN LINEAR DUA VARIABEL</strong></a>
+            <br>
+            <p><a href="#2.1 Pengertian Pertidaksamaan Linear Dua Variabel"><strong>2.1 Pengertian Pertidaksamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#2.2 Pengertian Sistem Pertidaksamaan Linear Dua Variabel"><strong>2.2 Pengertian Sistem Pertidaksamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#2.3 Sifat-sifat Pertidaksamaan"><strong>2.3 Sifat-sifat Pertidaksamaan</strong></a></p>
+            <p><a href="#2.4 Himpunan Penyelesaian Pertidaksamaan Linear Dua Variabel"><strong>2.4 Himpunan Penyelesaian Pertidaksamaan Linear Dua Variabel</strong></a></p>
+            <p><a href="#2.5 Langkah Penyelesaian Pertidaksamaan Linear Dua Variabel"><strong>2.5 Langkah Penyelesaian Pertidaksamaan Linear Dua Variabel</strong></a></p>
+          	</li>
+          <li><a href="#Ringkasan BAB 2"><strong>Ringkasan BAB 2</strong></a></li>	
+           <br>
+          <li><a href="#Latihan BAB 2"><strong>Latihan BAB 2</strong></a></li>	
+           <br>
+          <li><a href="#Evaluasi BAB 2"><strong>Evaluasi BAB 2</strong></a></li>
+           <br>
+          <li><a href="#Applikasi Penerapan SPtLDV"><strong>Applikasi Penerapan SPtLDV</strong></a> </li>
+          <br>
+          <li><a href="#Video Pembelajaran SPtLDV"><strong>Video Pembelajaran SPtLDV</strong></a> </li>
+          <br>
+          <br>
+          <li><a href="#DAFTAR PUSTAKA"><strong>DAFTAR PUSTAKA</strong></a></li>
+           <br>
+          <li><a href="#GLOSARIUM"><strong>GLOSARIUM</strong></a></li>
+           <br>
+          <li><a href="#INDEKS"><strong>INDEKS</strong></a></li>
+           <br>
+          <li><a href="#BIOGRAFI"><strong>BIOGRAFI</strong></a></li>
+           <br>
+          <li><a href="#Biografi Dosen Pengampu"><strong>Biografi Dosen Pengampu</strong></a></li>
+           <br>
+          <li><a href="#Biografi Penulis"><strong>Biografi Penulis</strong></a></li>
+
+          
+        </ul>
+      <br>
+      <br>
+      <hr>
+
+     <h2 id="DAFTAR GAMBAR" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">DAFTAR GAMBAR</h2>
+      <ul style="color:darkmagenta; font-family:Arial, Helvetica, sans-serif; margin: 50px">
+          
+          <li><a href="#Gambar 1. Penerapan SPLDV dalam Kehidupan Sehari-hari"><strong>Gambar 1. Penerapan SPLDV dalam Kehidupan Sehari-hari</strong></a></li>
+          <br>
+          <li><a href="#Gambar 2. Titik-titik Koordinat Persamaan x + y = 5"><strong>Gambar 2. Titik-titik Koordinat Persamaan x + y = 5</strong></a>	</li>
+          <br>
+          <li><a href="#Gambar 3. Grafik Persamaan Linear Dua Variabel x + y = 5"><strong>Gambar 3. Grafik Persamaan Linear Dua Variabel x + y = 5	</strong></a></li>
+          <br>
+          <li><a href="#Gambar 4. Grafik Persamaan Linear"><strong>Gambar 4. Grafik Persamaan Linear</strong></a></li>
+          <br>
+          <li><a href="#Gambar 5. Bukan Persamaan Linear"><strong>Gambar 5. Bukan Persamaan Linear	</strong></a></li>
+          <br>
+          <li><a href="#Gambar 6. YBC 4652"><strong>Gambar 6. YBC 4652</strong></a>	</li>
+          <br>
+          <li><a href="#Gambar 7. Rene Descartes"><strong>Gambar 7. Rene Descartes</strong></a>	</li>
+          <br>
+          <li><a href="#Gambar 8. Variabel pada PLDV"><strong>Gambar 8. Variabel pada PLDV</strong></a></li>	
+          <br>
+          <li><a href="#Gambar 9. Koefisien pada Persamaan Linear" ><strong>Gambar 9. Konstanta pada PLDV</strong></a></li>	
+          <br>
+          <li><a href="#Gambar 10. Konstanta pada PLDV"><strong>Gambar 10. Konstanta pada PLDV</strong></a></li>	
+          <br>
+          <li><a href="#Gambar 11. Suku dalam PLDV"><strong>Gambar 11. Suku dalam PLDV</strong></a></li>	
+          <br>
+          <li><a href="#Gambar 12. Tepat Satu Penyelesaian dari SPLDV"><strong>Gambar 12. Tepat Satu Penyelesaian dari SPLDV</strong></a>	</li>
+          <br>
+          <li><a href="#Gambar 13. Tak Hingga Penyelesaian dari SPLDV"><strong>Gambar 13. Tak Hingga Penyelesaian dari SPLDV</strong></a>	</li>
+          <br>
+          <li><a href="#Gambar 14. Tidak Memiliki Penyelesaian dari SPLDV"><strong>Gambar 14. Tidak Memiliki Penyelesaian dari SPLDV</strong></a></li>
+          <br>
+          <li><a href="#Gambar 15. Titik-titik Koordinat SPLDV"><strong>Gambar 15. Titik-titik Koordinat SPLDV</strong></a></li>
+          <br>
+          <li><a href="#Gambar 16. Grafik SPLDV"><strong>Gambar 16. Grafik SPLDV</strong></a></li>
+          <br>
+          <li><a href="#Gambar 17. Metode Eliminasi Nilai x pada SPLDV"><strong>Gambar 17. Metode Eliminasi Nilai x pada SPLDV</strong></a></li>
+          <br>
+          <li><a href="#Gambar 18. Metode Eliminasi Nilai y pada SPLDV"><strong>Gambar 18. Metode Eliminasi Nilai y pada SPLDV</strong></a></li>
+          <br>
+          <li><a href="#Gambar 19. Metode Eliminasi"><strong>Gambar 19. Metode Eliminasi</strong></a></li>
+          <br>
+          <li><a href="#Gambar 20. Grafik Pertidaksamaan Linear Dua Variabel"><strong>Gambar 20. Grafik Pertidaksamaan Linear Dua Variabel</strong></a></li>
+          <br>
+          <li><a href="#Gambar 21. Grafik Sistem Pertidaksamaan Linear Dua Variabel"><strong>Gambar 21. Grafik Sistem Pertidaksamaan Linear Dua Variabel</strong></a></li>
+          <br>
+          <li><a href="#Gambar 22. Berbagai Tipe Himpunan Penyelesaian dari SPLDV"><strong>Gambar 22. Berbagai Tipe Himpunan Penyelesaian dari SPLDV</strong></a></li>
+          <br>
+          <li><a href="#Gambar 23. Batasan Kanan dan Kiri pada Grafik Pertidaksamaan Linear"><strong>Gambar 23. Batasan Kanan dan Kiri pada Grafik Pertidaksamaan Linear</strong></a></li>
+          <br>
+          <li><a href="#Gambar 24. Batasan Atas dan Bawah pada Grafik Pertidaksamaan Linear"><strong>Gambar 24. Batasan Atas dan Bawah pada Grafik Pertidaksamaan Linear</strong></a></li>
+          <br>
+          <li><a href="#Gambar 25. Daerah Penyelesaian Pertidaksamaan Linear (Kiri Bawah)"><strong>Gambar 25. Daerah Penyelesaian Pertidaksamaan Linear (Kiri Bawah)</strong></a></li>
+          <br>
+          <li><a href="#Gambar 26. Daerah Penyelesaian Pertidaksamaan Linear (Atas Kanan)"><strong>Gambar 26. Daerah Penyelesaian Pertidaksamaan Linear (Atas Kanan)</strong></a></li>
+          <br>
+          <li><a href="#Gambar 27. Arsiran Daerah Himpunan 2x + 3y ≤ 6"><strong>Gambar 27. Arsiran Daerah Himpunan 2x + 3y ≤ 6</strong></a></li>
+          <br>
+          <li><a href="#Gambar 28. Arsiran Daerah Himpunan 2x + 3y ≥ 6"><strong>Gambar 28. Arsiran Daerah Himpunan 2x + 3y ≥ 6</strong></a></li>
+          <br>
+          <li><a href="#Gambar 29. Arsiran Daerah Himpunan 2x – 3y ≤  6"><strong>Gambar 29. Arsiran Daerah Himpunan 2x – 3y ≤  6</strong></a></li>
+        </ul>
+    
+        <br>
+        <br>
+        <hr>
+
+      <h2 id="DAFTAR TABEL" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">DAFTAR TABEL</h2>
+        <ul style="font-family:Arial, Helvetica, sans-serif; color:darkmagenta; margin: 50px">
+          <li><a href="#Table 1. Mencari Penyelesaian dari x + y = 5"><strong>Table 1. Mencari Penyelesaian dari x + y = 5</strong></a></li>
+          <br>
+          <li><a href="#Table 2. Substitusi jika x=0 pada persamaan 2x+3y=12"><strong>Table 2. Substitusi jika x=0 pada persamaan 2x+3y=12</strong></a></li>
+          <br>
+          <li><a href="#Table 3. Substitusi jika y=0 pada persamaan 2x+3y=12"><strong>Table 3. Substitusi jika y=0 pada persamaan 2x+3y=12</strong></a></li>
+          <br>
+          <li><a href="#Table 4. Substitusi jika x=0 pada persamaan 3x+2y=12"><strong>Table 4. Substitusi jika x=0 pada persamaan 3x+2y=12</strong></a></li>
+          <br>
+          <li><a href="#Table 5. Substitusi jika y=0 pada persamaan 3x+2y=12"><strong>Table 5. Substitusi jika y=0 pada persamaan 3x+2y=12</strong></a></li>
+             
+        </ul>
+        <br>
+        <br>
+        <hr>
+
+    <h2 id="PETA KONSEP" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">PETA KONSEP</h2>
+    <br>
+    <br>
+     <p>
+      <img src="gambar project PMM/peta konsep.png" style="position:relative;margin-left:200px">
+      <br>
+      <br>
+      <img src="gambar project PMM/peta konsep_2.png" style="position:relative;margin-left:250px">
+     </p>
+      
+      
+     <br>
+     <br>
+     <hr>
+     <br>
+     <br>
+
+
+      <h2 id="PENDAHULUAN" style=" color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 50px; margin: left 50px; margin-right: 50px;">PENDAHULUAN</h2>
+        <p style="font-family:Arial, Helvetica, sans-serif; font-size:x-small; margin:50px;text-align: left">
+         <em id="Gambar 1. Penerapan SPLDV dalam Kehidupan Sehari-hari">Gambar 1. Penerapan SPLDV dalam Kehidupan Sehari-hari </em>
+         <br>
+         <b>Sumber</b>: <em style="color:blue">https://m.tribunnews.com/metropolitan/2017/05/21/berbagi-kebahagiaan-melalui-program-belanja-bareng-</em>
+         <br>
+         <img class="float-kiri" src="gambar project PMM/gambar 1.jpg" style="margin-left:10px;margin-right:20px; margin-top: 20px; margin-bottom:5px; width:400px; height:200px">
+        </p>
+                
+       <p style="margin-left:50px; margin-top:0px;margin-right:50px; font-family:Arial, Helvetica, sans-serif; text-align:justify"><strong style="color:darkslateblue">Lihatlah gambar ilustrasi di samping!</strong> Pada gambar, terlihat ada beberapa orang yang sedang menunggu antrian belanja barang-barang tertentu. Gambar tersebut merupakan salah satu penerapan dari SPLDV. Saat kalian bingung berapa harga satuan barang yang dibeli, lalu teman kalian membeli beberapa barang yang sama dalam jumlah yang berbeda. Penyelesaian permasalahan tersebut bisa menggunakan SPLDV dan SPtLDV. Dengan menggunakan metode pada SPLDV, maka Anda dapat dengan mudah menghitung harga masing-masing barangnya. Selain itu, dengan menggunakan metode dari Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV), kalian juga bisa menghitung berapa kemungkinan keuntungan terbesar yang bisa didapatkan dari penjualan yang dilakukan. 
+        <br>
+        <br>
+        Persamaan dan pertidaksamaan linear dua variabel merupakan salah satu cabang matematika yang membahas tentang persamaan atau pertidaksamaan yang terdiri dari dua variabel yang pangkat tertinggi nya adalah satu, serta grafiknya berupa garis lurus. 
+        <br>
+        <br>
+        Dalam pengaplikasiannya sendiri, mungkin beberapa besar siswa/i sudah mengetahui dan memahami bagaimana konsep dari sistem persamaan dan pertidaksamaan linear dua variabel itu. Namun, beberapa siswa juga ada yang merasa materi itu sulit, tidak mengerti, atau bahkan tidak paham konsepnya. Dari hasil kuesioner siswa, 25 dari 28 responden siswa sekolah mengatakan bahwa ada beberapa kesulitan pada materi persamaan dan pertidaksamaan linear dua variabel. Sebagian besar menjawab kesulitan dalam memahami dan menjawab soal cerita, kesulitan membuat grafik persamaan atau pertidaksamaannya, dan kesulitan memahami metode penyelesaiannya. Ada juga yang mengatakan bahwa materi tersebut sulit karena belum paham konsep, sering tertukar dan keliru pada bagian pertidaksamaan, bingung dalam menyelesaikan soal cerita, dan lain sebagainya. Dari hasil tersebut, 90% responden menyatakan bahwa materi sistem persamaan dan pertidaksamaan linear dua variabel itu sulit. 
+        Padahal dari sistem persamaan dan pertidaksamaan linear dua variabel sangat erat kaitannya dengan kegiatan sehari-hari yang ada di sekitar kita. Dengan mempelajari materi sistem persamaan dan pertidaksamaan linear dua variabel, kita dapat dengan mudah menghitung keuntungan penjualan terbesar yang bisa terjadi, menghitung stok penjualan yang bisa dibeli dengan modal yang ada, menghitung harga masing-masing barang yang dibeli dari total harga yang ada, dan masih banyak manfaat lainnya dari penerapan materi ini yang berhubungan dengan kegiatan keseharian kita.  Oleh karena itu, materi ini penting untuk dipelajari dan dipahami, agar kita bisa menggunakan konsep-konsep materi ini untuk memudahkan memecahkan permasalahan dalam kegiatan atau pekerjaan sehari-hari. 
+        </p>
+        
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+      <h2 id="BAB 1: SISTEM PERSAMAAN LINEAR DUA VARIABEL" style="margin:50px; color:blueviolet; text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px;">BAB 1: SISTEM PERSAMAAN LINEAR DUA VARIABEL</h2>
+        <h2 id="1.1 Pengertian Persamaan Linear Dua Variabel" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">1.1 Pengertian Persamaan Linear Dua Variabel</h2>
+         <p style="margin-left: 50px; margin-right: 50px; margin-top:5px; margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; text-align:justify">Persamaan Linear Dua Variabel (PLDV) adalah sebuah bentuk relasi sama dengan pada bentuk aljabar yang terdiri dari dua variabel, dimana kedua variabelnya berpangkat satu dan pangkat tertingginya hanya satu. Dinamakan persamaan linear karena bentuk grafik persamaan ini merupakan sebuah grafik garis lurus (linear).(Muawwana, 2020)
+          <br>
+          <br>
+          Perhatikan persamaan-persamaan berikut</p>
+          <ol type="a" style="font-family: Arial, Helvetica, sans-serif;  margin-top:5px;margin-bottom: 5px;margin-left:50px; margin-right:50px">
+           <li> <em>x</em> + 6 = <em>y</em> </li>
+           <li>2<em>a</em> – <em>b</em> = 4</li>
+           <li>3<em>p</em> + 6<em>q</em> = 10</li>
+          </ol>
+          <br>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 10px;text-align: justify ">Persamaan-persamaan di atas merupakan contoh bentuk persamaan linear dua variabel. Variabel pada persamaan <em>x</em> + 6 = <em>y</em> adalah <em>x</em> dan <em>y</em>, variabel pada persamaan 2<em>a</em> – <em>b</em> = 4 adalah <em>a</em> dan <em>b</em>. Adapun variabel pada persamaan 3<em>p</em> + 6<em>q</em> = 10 adalah <em>p</em> dan <em>q</em>. Perhatikan bahwa pada setiap contoh persamaan di atas, variabelnya berjumlah dua dan masing-masing variabelnya berpangkat satu (pangkat tertingginya satu). 
+          <br>
+          <br>
+          Perhatikan persamaan <em>x</em> + <em></em>y = 5. Persamaan <em>x</em> + <em>y</em> = 5 masih merupakan kalimat terbuka. Maksud kalimat di sini berarti persamaan tersebut belum mempunyai nilai kebenaran, karena masih ada nilai yang belum diketahui. Jika nilai <em>x</em> kita ganti dengan bilangan 1, maka nilai <em>y</em> yang memenuhi adalah 4. Karena pasangan bilangan (1, 4) memenuhi persamaan tersebut, maka persamaan <em>x</em> + <em>y</em> = 5 menjadi kalimat yang benar. Dalam hal ini, dapat dikatakan bahwa (1, 4) merupakan salah satu solusi penyelesaian dari persamaan <em>x</em> + <em>y</em> = 5. (Nuharini & Wahyuni, 2008)
+          <br>
+          <br>
+          Untuk mencari nilai <em>x</em> dan <em>y</em> yang memenuhi persamaan <em>x</em> + <em>y</em> = 5 akan lebih mudah dengan membuat tabel seperti berikut.
+          </p>
+          <br>
+          <br>
+          <p id="Table 1. Mencari Penyelesaian dari x + y = 5" style="font-size:x-small;text-align:center;font-family: Arial, Helvetica, sans-serif"><em>Table 1. Mencari Penyelesaian dari x + y = 5</em></p>
+          <table border= "1px" style="margin:auto; font-size: 20px ">
+      
+            <tbody>
+              <tr style="text-align:center">
+                <td>x</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+              </tr>
+
+              <tr style="text-align:center">
+                <td>y</td>
+                <td>5</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+
+              <tr>
+                <td>(x,y)</td>
+                <td>(0,5)</td>
+                <td>(1,4)</td>
+                <td>(2,3)</td>
+                <td>(3,2)</td>
+                <td>(4,1)</td>
+                <td>(5,0)</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+          <br>
+          <br>
+
+        <p style="margin: 50px;font-family: Arial, Helvetica, sans-serif; text-align:justify">
+          Jadi, himpunan penyelesaian dari persamaan x + y = 5 adalah {(0, 5), (1, 4), (2, 3), (3, 2), (4, 1), (5, 0)}. 
+          <br>
+          <br>
+          Berikut gambar grafik persamaan x + y = 5 pada bidang Cartesius.
+          <br>
+          <br>
+            <em style="font-size:x-small" id="Gambar 2. Titik-titik Koordinat Persamaan x + y = 5">Gambar 2. Titik-titik Koordinat Persamaan x + y = 5</em>
+            <br>
+            <img src="gambar project PMM/gambar 2.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px; width:300px; height:300px">
+           
+          <br>
+          <br>
+          Jika x dan y variabel pada himpunan bilangan cacah, maka grafik penyelesaian persamaan x + y = 5 berupa noktah/titik-titik. Adapun, jika x dan y variabel pada himpunan bilangan real, maka titik-titik tersebut dihubungkan sehingga membentuk garis lurus seperti pada Gambar berikut. 
+          <br>
+          <br>
+            <em style="font-size:x-small" id="Gambar 3. Grafik Persamaan Linear Dua Variabel x + y = 5">Gambar 3. Grafik Persamaan Linear Dua Variabel x + y = 5</em>
+            <br>
+            <img src="gambar project PMM/gambar 3.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px; width:300px; height:300px">
+          
+          <br>
+          <br>
+          <br>
+          Jika kalian ambil pasangan bilangan (1, 1), lalu disubstitusikan pada persamaan x + y = 5 maka diperoleh 1 + 1 ≠ 5 (kalimat salah). Karena pasangan bilangan (1, 1) tidak memenuhi persamaan x + y = 5 maka bilangan (1, 1) tersebut bukanlah solusi penyelesaian dari persamaan x + y = 5.
+          <br>
+          <br>
+          <em style="font-size:x-small" id="Gambar 4. Grafik Persamaan Linear">Gambar 4. Grafik Persamaan Linear</em>
+          <br>
+          <img src="gambar project PMM/gambar 4.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px; width:300px; height:200px">
+          <br>
+          <br>
+          <br>
+          <em style="font-size:x-small" id="Gambar 5. Bukan Persamaan Linear">Gambar 5. Bukan Persamaan Linear</em>
+          <br>
+          <img src="gambar project PMM/gambar 5.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px; width:300px; height:200px">
+        </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+      <h2 id="1.2 Sejarah Persamaan Linear" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.2 Sejarah Persamaan Linear</h2>
+        <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">Sistem persamaan linear telah lama digunakan, yakni sejak 4000 tahun yang lalu (±2000 SM) pada masa Babylonian (Babel). Hal ini terbukti dalam tablet YBC 4652 yang menjelaskan bagaimana Babel menyelesaikan suatu masalah menggunakan persamaan linear. 
+          <br>
+          <br>
+          <em id="Gambar 6. YBC 4652"  style="font-size:x-small">Gambar 6. YBC 4652</em>
+            <br>
+            <b style="font-size:x-small">Sumber</b>: <em style="color:blue;font-size:x-small"> https://www.researchgate.net/figure/Old-Babylonian-tablet-using-false-position-plate-13-from-Neugebauer-and-Sachs-1945_fig1_258158978</em>
+              <br>
+
+            <img src="gambar project PMM/gambar 6.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px; width:300px; height:200px; position:relative">
+            <br>
+            <br>
+            <em id="Gambar 7. Rene Descartes"  style="font-size:x-small">Gambar 7. Rene Descartes</em>
+              <br>
+              <b style="font-size:x-small">Sumber</b>: <em style="color:blue; font-size:x-small">https://i.pinimg.com/236x/e9/a1/eb/e9a1ebedeebdd68b113a940b18a0fa4a--rene-descartes-modern-philosophy.jpg</em>
+              <br>
+              <img src="gambar project PMM/gambar 7.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative">
+          <br>
+          <br>
+          
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+          Dalam tablet YBC 4652 dituliskan: (Widhiyantara, 2014) Meskipun babel sudah menggunakan Sistem Persamaan Linier dalam kehidupan sehari-hari, namun istilah “Sistem Persamaan Linear (Linear Equation)” baru muncul sekitar abad ke-17 oleh seorang matematikawan Perancis bernama Rene Descartes. Rene Descartes lahir pada 31 Maret 1596 di sebuah desa di Prancis. Dia menempuh pendidikan di Belanda, ia juga suka belajar matematika di waktu luang. Karya Descartes yang paling dikenal di antaranya adalah geometri Cartesian yang menggunakan aljabar untuk menggambarkan geometri. Kemungkinan Descartes menemukan istilah untuk “Sistem Persamaan Linier (Linear Equation)” yaitu saat dia belajar di Belanda. Selain itu, ada juga Gauss Paper yang pada tahun 1811 memperkenalkan suatu prosedur sistematis yang kemudian dikenal dengan istilah eliminasi Gauss. Eliminasi Gauss merupakan salah satu solusi dalam sistem persamaan linear. 
+          <br>
+          <br>
+          Metode di Eropa berasal dari catatan Isaac Newton. Pada tahun 1670, dia menulis bahwa seluruh buku aljabar yang diketahuinya memiliki kekurangan solusi untuk memecahkan persamaan simultan. Carl Friedrich Gauss pada tahun 1810 menyusun notasi untuk eliminasi simetrik yang diadopsi pada abad ke-19 oleh komputer tangan profesional untuk memecahkan persamaan normal masalah kuadrat hingga terkecil. Metode eliminasi Gauss dinilai kurang efisien untuk menyelesaikan sebuah SPL. Namun, pada perkembangannya kini, metode eliminasi Gauss disempurnakan menjadi eliminasi Gauss-Jordan. Motode tersebut dinamai Eliminasi Gauss-Jordan untuk menghormati Carl Friedrich Gauss dan Whilhelm Jordan. Wilhelm Jordan (1842-1899) merupakan seorang insinyur asal Jerman yang ahli dalam bidang geodesi. Buku karya nya tentang sistem persamaan linear berjudul Handbuch de Vermessungskunde (Buku panduan Geodesi) pada tahun 1988. (Nurlianawati, 2020)
+          <br>
+          <br>       
+          <hr>
+          <br>
+          <br>
+          </p>
+        </p>
+        
+
+      <h2 id="1.3 Pengertian Sistem Persamaan Linear Dua Variabel" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.3 Pengertian Sistem Persamaan Linear Dua Variabel</h2>
+        <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+        Sistem persamaan linear dua variabel (SPLDV) adalah sebuah sistem / gabungan / kesatuan dari beberapa Persamaan Linear Dua Variabel yang sejenis (misal variabel x dan y). Jadi, sebelum mempelajari Sistem Persamaan Linear Dua Variabel (SPLDV), kita harus terlebih dahulu mempelajari mengenai hal – hal yang berhubungan dengan Sistem Persamaan Linear Dua Variabel (SPLDV) (Siska, 2014).(Muawwana, 2020)
+      <br>
+      <br>
+        Dengan kata lain, Sistem Persamaan Linear Dua Variabel (SPLDV) adalah beberapa persamaan linear yang masing-masing persamaannya terdiri dari dua variabel (misal x dan y) yang koefisiennya a dan b serta konstanta misalnya c. (Nurlianawati, 2020). Jadi, sistem persamaan linear dua variabel merupakan kumpulan dari dua atau lebih persamaan-persamaan linear yang terdiri dari dua variabel yang sejenis. Pada persamaan hanya terdapat sebuah persamaan saja, sedangkan pada sistem persamaan terdapat dua atau lebih persamaan yang variabelnya sama dan saling berkaitan satu sama lainnya, dimana dua variabel yang ada menunjukan banyaknya variabel yang akan ditentukan penyelesaiannya.
+      <br>
+      <br>
+      <br>
+      
+        Bentuk umum dari sistem persamaan linear dua variabel adalah sebagai berikut:
+      <br>
+      <br>
+
+        a1x + b1y = c1  ; a2 x + b2y = c2  
+        <br>
+        <br>
+        dengan a, b, dan c ∈ R
+        <br>
+							a, b ≠ 0
+              <br>
+							x dan y merupakan variabel
+
+        </p>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2 id="1.4 Bagian-bagian Sistem Persamaan Linear Dua Variabel" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.4 Bagian-bagian Sistem Persamaan Linear Dua Variabel</h2>
+        <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">Dalam sistem persamaan linear dua variabel, terdapat bagian-bagian atau istilah-istilah yang ada di dalamnya. Berikut bagian-bagian pada sistem persamaan linear dua variabel, yaitu:         
+          <br>
+          <br>
+          1. Variabel 
+          <br>
+          Suatu pemisal / pengganti dari suatu nilai atau bilangan, yang biasa dilambangkan dengan huruf atau simbol disebut dengan variabel.
+          <br>
+          Contoh: Sinta memiliki 5 ekor kuda dan 2 ekor kucing
+          <br>
+          <br>
+          Jika ditulis dengan memisalkan: x = kuda dan y = kucing, 
+          <br>
+          Maka menjadi: 5x + 2y, dimana x dan y adalah variabel. 
+          <br>
+          <br>
+          <em id="Gambar 8. Variabel pada PLDV"  style="font-size:x-small">Gambar 8. Variabel pada PLDV</em>
+          <br>
+              <img src="gambar project PMM/gambar 8.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:200px;height:150px">
+
+          <br>
+          <br>
+          2. Koefisien 
+          <br>
+          Ada sebuah bilangan yang menyatakan banyaknya jumlah variabel yang sejenis, disebut dengan koefisien. Jadi, koefisien merupakan bilangan yang biasanya berada di depan variabel dimana bilangan itu menunjukkan jumlah variabel yang sejenis.
+          <br>
+          Contoh: 3x + 4y
+          <br>
+          <br>
+          Maka angka 3 dan 4 merupakan koefisien (3 adalah koefisien x, sedangkan 4 adalah koefisien y).
+          <br>
+          <br>
+          <em id="Gambar 9. Koefisien pada Persamaan Linear"  style="font-size:x-small">Gambar 9. Koefisien pada Persamaan Linear</em>
+          <br>
+          <img src="gambar project PMM/gambar 9.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:200px;height:150px">
+          <br>
+          <br>
+          3. Konstanta 
+          <br>
+          Suatu nilai atau bilangan yang tidak diikuti oleh variabel, disebut dengan konstanta. Jadi, nilai konstanta tidak bergantung pada nilai variabelnya. Dengan kata lain, berapapun nilai variabel, konstanta akan selalu tetap (konstan).
+          <br>
+          Contoh: 3x + 4y = 20
+          <br>
+          <br>
+          Dari persamaan di atas, diketahui bahwa angka 20 merupakan suatu konstanta. Hal itu dikarenakan berapapun nilai x dan y nya, nilai 20 tidak akan terpengaruh, melainkan akan selalu tetap.
+          <br>
+          <br>
+          <em id="Gambar 10. Konstanta pada PLDV"  style="font-size:x-small">Gambar 10. Konstanta pada PLDV</em>
+          <br>
+          <img src="gambar project PMM/gambar 10.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:200px;height:150px">
+      
+          <br>
+          <br>
+          4. Suku 
+          <br>
+          Pada persamaan, terdapat bagian-bagian dari bentuk aljabar yang terdiri dari variabel, koefisien, ataupun konstanta yang dipisahkan oleh tanda operasi penjumlahan. Bagian-bagian tersebut disebut dengan suku. 
+          <br>
+          Contoh: 5x- y + 8, maka suku-sukunya adalah: 5x, -y, dan 8 (berjumlah 3 suku)  
+          <br>
+          <br>
+          <em id="Gambar 11. Suku dalam PLDV"  style="font-size:x-small">Gambar 11. Suku dalam PLDV</em>
+          <br>
+          <img src="gambar project PMM/gambar 11.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:150px;height:150px">
+      
+        </p>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2 id="1.5 Metode Penyelesaian Sistem Persamaan Linear Dua Variabel" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.5 Metode Penyelesaian Sistem Persamaan Linear Dua Variabel</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            Ada beberapa metode dalam menyelesaikan sistem persamaan linear dua variabel, yakni:
+            <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <li>Grafik</li>
+              <li>Eliminasi</li>
+              <li>Substitusi</li>
+              <li>Gabungan (eliminasi dan substitusi)</li>
+            </ol>
+            <br>
+            <br>
+            <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify" >
+              <li>Metode Grafik
+                <p>Penyelesaian SPLDV dengan metode grafik adalah melalui koordinat titik potong grafik dari garis persamaan-persamaan linearnya.</p>
+              </li>
+
+              <li>Metode Eliminasi
+                <p>Pada metode eliminasi ini, cara untuk menentukan himpunan penyelesaian dari sistem persamaan linear dua variabel ialah dengan menghilangkan (mengeliminasi) salah satu variabel yang ada pada sistem persamaan tersebut (Arifin, 2020)(Muawwana, 2020).
+                  <br>
+                  Dalam metode eliminasi, salah satu variabelnya akan dieliminasi atau dihilangkan menggunakan operasi aljabar, yaitu dengan cara mengurangkan kedua persamaan yang ada. Agar variabel yang diinginkan tereliminasi pada saat dikurangkan, maka terlebih dahulu kita harus menyamakan koefisien variabel tersebut. (Simangunsong, 2016). Misal variabelnya yaitu x dan y, maka untuk menentukan variabel x kita harus mengeliminasi variabel y terlebih dahulu, dan sebaliknya. (Muawwana, 2020)</p>
+              </li>
+
+              <li>Metode Substitusi
+                <p>Metode Substitusi adalah suatu metode yang digunakan untuk menyelesaikan sebuah sistem persamaan linear dua variabel, dimana terlebih dahulu kita harus menyatakan suatu variabel ke dalam variabel yang lain dari suatu persamaan, lalu kita mensubstitusikan (menggantikan) variabel itu dalam persamaan yang lainnya. (Muawwana, 2020).
+
+                  Dalam metode ini, salah satu variabel dipisahkan dari satu persamaan yang ada, seperti: y = mx + k atau x = my + k, lalu variabel yang sudah dipisahkan ini disubstitusikan ke persamaan yang lainnya. (Simangunsong, 2016)</p>
+              </li>
+
+              <li>Metode Gabungan
+                <p>Metode gabungan adalah suatu metode penyelesaian SPLDV, dimana kita menggabungkan atau memakai dua metode, yakni metode eliminasi dan substitusi. (Muawwana, 2020)</p>
+              </li>
+
+            </ol>
+
+          </p>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+
+        <h2 id="1.6 Hasil Penyelesaian Sistem Persamaan Linear" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.6 Hasil Penyelesaian Sistem Persamaan Linear</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">Berdasarkan gradien garis (m) dan nilai c pada persamaan garis y = mx + c, 
+            <br>
+            <br>
+            Sistem persamaan linear memiliki tiga kemungkinan banyaknya penyelesaian:
+            <br>
+            <br>
+
+            <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <li>Memiliki sebuah penyelesaian, jika m1 ≠ m2 
+                <br>
+                <br>
+                <em id="Gambar 12. Tepat Satu Penyelesaian dari SPLDV"  style="font-size:x-small">Gambar 12. Tepat Satu Penyelesaian dari SPLDV</em>
+                <br>
+                <img src="gambar project PMM/gambar 12.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+                <br>
+                <p>Dua garis yang tidak sejajar dan berpotongan pada tepat satu titik (hanya satu penyelesaian).</p>
+              </li>
+              <br>
+              <li>Memiliki banyak penyelesaian, jika m1 = m2 dan c1 = c2 
+                <br>
+                <br>
+                <em id="Gambar 13. Tak Hingga Penyelesaian dari SPLDV"  style="font-size:x-small">Gambar 13. Tak Hingga Penyelesaian dari SPLDV</em>
+                <br>
+                <img src="gambar project PMM/gambar 13.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+                <br>
+                <p> Dua garis berhimpitan akan menghasilkan banyak atau tak hingga penyelesaian.</p>
+              </li>
+              <br>
+              <li>Tidak memiliki penyelesaian, jika m1 = m2 dan c1 ≠ c2
+                <br>
+                <br>
+                <em id="Gambar 14. Tidak Memiliki Penyelesaian dari SPLDV"  style="font-size:x-small">Gambar 14. Tidak Memiliki Penyelesaian dari SPLDV</em>
+                <br>
+                <img src="gambar project PMM/gambar 14.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+                <br>
+                <p>Dua garis yang sejajar dan tidak berhimpitan, tidak memiliki penyelesaian.</p>
+              </li>
+            </ol>
+
+            <br>
+            <br>
+            
+            <hr>
+            <br>
+            <br>
+
+        <h2 id="1.7 Jenis Penyelesaian Sistem Persamaan Linear" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.7 Jenis Penyelesaian Sistem Persamaan Linear</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">Secara umum, ada tidaknya penyelesaian sistem persamaan linear</p>
+              <ul style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <li>ax + by = c</li>
+              <li>dx + ey = f</li>
+                </ul>
+
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">dapat dirumuskan seperti berikut ini:
+          </p>
+
+          <ol type="i" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+          <li>Sistem persamaan linear mempunyai penyelesaian yang unik jika (-a)/b ≠ (-d)/e  atau jika a/d ≠ b/e</li>
+          <li>Sistem persamaan linear tidak mempunyai penyelesaian jika  a/d = b/e</li>
+          <li>Sistem persamaan mempunyai tak hingga penyelesaian jika  a/d = b/e = c/f </li>
+
+          </ol>
+        
+          </p>
+
+         <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+        <h2 id="1.8 Beberapa Sistem Persamaan yang Dapat Diubah Menjadi Sistem Persamaan Linear" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.8 Beberapa Sistem Persamaan yang Dapat Diubah Menjadi Sistem Persamaan Linear</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">Sistem persamaan berbentuk</p>
+          <ul style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            <li>a/x + b/y = c</li>
+            <li> d/x + e/y = f</li>
+
+          </ul>
+          <br>
+
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+        dapat diubah menjadi
+          <br>
+          sistem persamaan linear dengan memisalkan 1/x = p dan 1/y = q
+          <br>
+          <br>
+          Demikian juga sistem persamaan </p>
+          <ul style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            <li>a/(x+y) + b/(x-y) = c</li>
+            <li>d/(x+y) + e/(x-y) = f</li>
+          </ul>	
+          <br>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">Dapat diubah menjadi
+          <br>sistem persamaan linear dengan memisalkan 1/(x+y) = p dan 1/(x-y) = q.
+          <br>
+          <br>
+          Pemisalan tersebut menghasilkan sistem persamaan linear dengan variabel p dan q. (Simangunsong, 2016)	
+
+          </p>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+
+        
+        <h2 id="1.9 Langkah Penyelesaian Soal Cerita yang Berkaitan dengan Sistem Persamaan Linear Dua Variabel" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.9 Langkah Penyelesaian Soal Cerita yang Berkaitan dengan Sistem Persamaan Linear Dua Variabel</h2>
+          <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            <li>Mengubah kalimat-kalimat pada soal cerita menjadi beberapa kalimat matematika (model matematika), sehingga membentuk sistem persamaan linear dua variabel.</li>
+            <br>
+            <li>Menyelesaikan sistem persamaan linear dua variabel</li>
+            <br>
+            <li>Menggunakan penyelesaian yang diperoleh untuk menjawab pertanyaan pada soal cerita</li>
+          </ol>
+
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+       <h2 id="1.10 Langkah Penyelesaian Sistem Persamaan Linear Dua Variabel" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">1.10 Langkah Penyelesaian Sistem Persamaan Linear Dua Variabel</h2>
+             <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+                <li><strong>Melalui Metode Grafik</strong></li>
+                  <p>Pada penyelesaian SPLDV metode grafik ini, kita harus memerhatikan koordinat titik potong pada tiap persamaan yang diketahui. Jika diketahui dua persamaan yaitu a_1 x + b_1y = c_1  ; a_2 x + b_2y = c_2  , maka langkah-langkah penyelesaiannya adalah: 
+                    <br>
+                    <br>
+                    1. Menentukan titik-titik potong pada sumbu x dan sumbu y dari kedua persamaan
+                    Menentukan titik potong dengan cara mensubstitusi jika x=0 dan jika y=0.
+                    Misal ada persamaan 2x + 3y = 12 dan 3x + 4y = 24, maka:
+                    <br>
+                     <ol type="a">
+                    <br>
+
+                      <li>persamaan 2x + 3y = 12</li>
+                        <ul>
+                          <li>jika x=0
+                            <br>
+                            <p id="Table 2. Substitusi jika x=0 pada persamaan 2x+3y=12" style="font-size:x-small;margin-left:50px;font-family: Arial, Helvetica, sans-serif"><em>Table 2. Substitusi jika x=0 pada persamaan 2x+3y=12</em></p>
+                            <table border="1px">
+                              <tbody>
+                                <tr>
+                                  <td>x</td>
+                                  <td>y</td>
+                                  <td>(x,y)</td>
+                                </tr>
+                                <tr>
+                                  <td>0</td>
+                                  <td>2(0) + 3y = 12 --> 3y = 12 --> y = 4</td>
+                                  <td>(0,4)</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                          <br>
+                          <br>
+                          <li>jika y=0
+                            <br>
+                            <p id="Table 3. Substitusi jika y=0 pada persamaan 2x+3y=12" style="font-size:x-small;margin-left:50px;font-family: Arial, Helvetica, sans-serif"><em>Table 3. Substitusi jika y=0 pada persamaan 2x+3y=12</em></p>                           
+                            <table border="1px">
+                              <tbody>
+                                <tr>
+                                  <td>y</td>
+                                  <td>x</td>
+                                  <td>(x,y)</td>
+                                </tr>
+                                <tr>
+                                  <td>0</td>
+                                  <td>2x + 3(0) = 12 --> 2x = 12 --> x = 6</td>
+                                  <td>(6,0)</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+
+                        </ul>
+                      <br>
+                      <br>
+                      <li>persamaan 3x + 2y = 12</li>
+                        <ul>
+                          <li>jika x=0</li>
+                          <p id="Table 4. Substitusi jika x=0 pada persamaan 3x+2y=12" style="font-size:x-small;margin-left:50px;font-family: Arial, Helvetica, sans-serif"><em>Table 4. Substitusi jika x=0 pada persamaan 3x+2y=12</em></p> 
+                            <table border="1px">
+                              <tbody>
+                                <tr>
+                                  <td>x</td>
+                                  <td>y</td>
+                                  <td>(x,y)</td>
+                                </tr>
+                                <tr>
+                                  <td>0</td>
+                                  <td>3(0) + 2y = 12 --> 2y = 12 --> y = 6</td>
+                                  <td>(0,6)</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          <br>
+                          <li>jika y=0</li>
+                          <p id="Table 5. Substitusi jika y=0 pada persamaan 3x+2y=12" style="font-size:x-small;margin-left:50px;font-family: Arial, Helvetica, sans-serif"><em>Table 5. Substitusi jika y=0 pada persamaan 3x+2y=12</em></p>
+                            <table border="1px">
+                              <tbody>
+                                <tr>
+                                  <td>y</td>
+                                  <td>x</td>
+                                  <td>(x,y)</td>
+                                </tr>
+                                <tr>
+                                  <td>0</td>
+                                  <td>3x + 2(0) = 12 --> 3x = 12 --> x = 4</td>
+                                  <td>(4,0)</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </ul>
+
+                     </ol>
+                    <br>
+                    <br>
+                    2. Buatlah titik-titik potong (titik koordinat) pada sumbu x dan sumbu y dari kedua persamaan
+                     
+                    <br>
+                    Misal pada persamaan 2x + 3y = 12 dihasilkan dua titik koordinat, yaitu (0,4) dan (6,0), sedangkan pada persamaan 3x + 2y = 12 dihasilkan dua titik koordinat (0,6) dan (4,0).
+                    <br>
+                    <br>
+                    <em id="Gambar 15. Titik-titik Koordinat SPLDV"  style="font-size:x-small">Gambar 15. Titik-titik Koordinat SPLDV</em>
+                    <br>
+                    <img src="gambar project PMM/gambar 15.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+                    <br>
+                    3. Buatlah garis-garis dari titik-titik koordinat tiap persamaan tersebut. Jika garis-garis tersebut berpotongan, maka terdapat tepat satu penyelesaian atau solusi.
+                     <br>
+                     <br>
+                     <em id="Gambar 16. Grafik SPLDV"  style="font-size:x-small">Gambar 16. Grafik SPLDV</em>
+                     <br>
+                     <img src="gambar project PMM/gambar 16.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+                  </p>
+                <li><strong>Melalui Metode Eliminasi</strong></li>
+                 <p>Pada metode eliminasi ini, cara untuk menentukan himpunan penyelesaian dari sistem persamaan linear dua variabel adalah dengan menghilangkan (mengeliminasi) salah satu variabel dari sistem persamaan tersebut. (Arifin, 2020)(Muawwana, 2020)
+                  <br>
+                  <br>
+                  Adapun langkah-langkahnya sebagai berikut:
+                  <br>
+                  1. Untuk menghilangkan suatu variabel, maka koefisien dari variabel pada kedua persamaan harus bernilai sama. Jika belum sama, masing-masing persamaan dikalikan dengan bilangan tertentu sehingga variabel tersebut memiliki koefisien yang sama. 
+                  <br>
+                  2. Jika variabel yang akan dihilangkan bertanda sama, maka kedua persamaan tersebut dikurangi. Sedangkan jika memiliki tanda yang berbeda maka kedua persamaan tersebut ditambah. 
+                  <br>
+                  <br>
+                  <em id="Gambar 17. Metode Eliminasi Nilai x pada SPLDV"  style="font-size:x-small">Gambar 17. Metode Eliminasi Nilai x pada SPLDV</em>
+                  <br>
+                  <img src="gambar project PMM/gambar 17.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+                  <br>
+                  <br>
+                  <em id="Gambar 18. Metode Eliminasi Nilai y pada SPLDV"  style="font-size:x-small">Gambar 18. Metode Eliminasi Nilai y pada SPLDV</em>
+                  <br>
+                  <img src="gambar project PMM/gambar 18.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+                 </p>
+
+                <li><strong>Melalui Metode Substitusi</strong></li>
+                  <p>Metode Substitusi adalah suatu metode penyelesaian sistem persamaan linear dua variabel dengan cara menyatakan variabel yang satu ke dalam variabel yang lain dari suatu persamaan, kemudian mensubstitusikan (menggantikan) variabel itu dalam persamaan yang lainnya. Untuk menyelesaikan SPLDV melalui metode substitusi, berarti kita harus mengganti atau menyatakan salah satu variabel dengan variabel lainnya.
+                    <br>
+                    Misalnya, terdapat persamaan 
+                    <br>
+                    -x + y = 70 
+                    <br>
+                    2x – y = 30 
+                    <br>
+                    <br>
+                    Dari persamaan pertama, 
+                    -x + y = 70
+                           y = 70 + x
+                           <br>
+                    Dari persamaan kedua,
+                    2x – y 	        = 30
+                    2x – (70 + x) = 30
+                    2x – 70 – x   = 30 
+                    x – 70           = 30
+                    x                    = 100
+                    sehingga, nilai y = 70 +100 = 170
+                    </p>
+
+                <li><strong>Melalui Metode Gabungan (eliminasi dan substitusi)</strong></li>
+                  <p>Metode gabungan yaitu menggabungkan antara metode eliminasi dan metode substitusi. Metode gabungan yaitu dengan menggunakan metode eliminasi terlebih dahulu pada persamaan-persamaan, lalu menggunakan metode substitusi, atau sebaliknya. 
+                    <br>
+                    <br>
+                    Misalnya, terdapat persamaan
+                    <br>
+                    i) -x + y = 70;
+                    <br>
+                    ii) 2x – y = 30
+                    <br>
+                    <br>
+                    Dari persamaan pertama, bisa memakai metode eliminasi. Untuk mencari nilai x, samakan koefisien y terlebih dahulu.
+                    <br>
+                    <br>
+                    <em id="Gambar 19. Metode Eliminasi"  style="font-size:x-small">Gambar 19. Metode Eliminasi</em>
+                    <br>
+                    <img src="gambar project PMM/gambar 19.jpg" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:200px;height:100px">
+                    <br>
+                    <br>
+                    Lalu dari persamaan kedua, kita bisa memakai metode substitusi
+                    <br>
+                    
+                    2x – y        = 30
+                    <br>
+                    2(100) - y = 30
+                    <br>
+                    200 – y     = 30
+                    <br>
+                    y             = 170 
+
+
+                    </p>
+             
+              </ol>
+        
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        
+        <h2 id="Ringkasan BAB 1" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">Ringkasan BAB 1</h2>
+          <ul style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            <li>Persamaan linear dua variabel adalah sebuah bentuk persamaan yang dicirikan dengan tanda sama dengan “=” pada bentuk aljabar yang terdiri dari dua variabel yang berpangkat satu.</li>
+            <br>
+            <li>Sistem persamaan linear dua variabel adalah beberapa persamaan linear yang masing-masing mempunyai dua variabel (misal x dan y) yang koefisiennya a dan b serta konstanta misalnya c.</li>
+            <br>
+            <li>Bagian-bagian atau istilah dalam persamaan linear, yakni: variabel, koefisien, konstanta, dan suku.</li>
+            <br>
+            <li>Metode penyelesaian SPLDV: metode grafik, eliminasi, substitusi, dan gabungan. </li>
+            <br>
+            <li>Jenis penyelesaian sistem persamaan linear:
+              <p>a) memiliki penyelesaian yang unik
+                <br>
+                b) tak memiliki penyelesaian
+                <br>
+                c) memiliki tak hingga penyelesaian</p>
+            </li>
+            <br>
+            <li>Kemungkinan penyelesaian sistem persamaan linear dua variabel, yakni:
+              <p>1. Tidak memiliki solusi
+                <br>
+                2. Memiliki banyak solusi atau tak hingga solusi
+                <br>
+                3. Memiliki tepat satu solusi</p>
+            </li>
+            <br>
+            <li>Langkah Penyelesaian SPLDV:
+              <br>
+              <br>
+              <ol type="1">
+                <li>Metode Grafik
+                    <ul>
+                      <li>Menentukan titik-titik potong pada sumbu x dan sumbu y dari kedua persamaan</li>
+                      <br>
+                      <li>Buatlah titik-titik potong (titik koordinat) pada sumbu x dan sumbu y dari kedua persamaan</li>
+                      <br>
+                      <li>Buatlah garis-garis dari titik-titik koordinat tiap persamaan tersebut</li>
+                      <br>
+                      <li>Titik yang berpotongan dari kedua garis itulah penyelesaiannya</li>
+                    </ul>
+                </li>
+                <br>
+
+                <li>Metode Eliminasi
+                  <ul>
+                    <li>Untuk menghilangkan suatu variabel maka koefisien dari variabel tersebut pada kedua persamaan harus sama. Jika belum sama, masing-masing persamaan dikalikan dengan bilangan tertentu sehingga variabel tersebut memiliki koefisien yang sama</li>
+                    <br>
+                    <li>Jika variabel yang akan dihilangkan bertanda sama, maka kedua persamaan tersebut dikurangi. Sedangkan jika memiliki tanda yang berbeda maka kedua persamaan tersebut ditambah</li>
+                    <br>
+                  </ul>
+
+                </li>
+                <br>
+
+                <li>Metode Substitusi
+                  <ul>
+                    <li>Menyatakan variabel yang satu ke dalam variabel yang lain dari suatu persamaan</li>
+                    <br>
+                    <li>Mensubstitusikan (menggantikan) variabel itu dalam persamaan yang lainnya</li>
+                    <br>
+                  </ul>
+                </li>
+                <br>
+                <li>Metode Gabungan
+                  <ul>
+                    <li>Menggunakan metode eliminasi terlebih dahulu pada persamaan-persamaan, lalu menggunakan metode substitusi, atau sebaliknya.
+                    </li>
+                  </ul>
+                </li>            
+            </li>
+         
+          </ul>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+          
+        <h2 id="Latihan BAB 1" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">Latihan BAB 1</h2>
+          <ol type ="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+          	<li>Berapakah koefisien masing-masing a dan b pada persamaan 10a + 5b = 25?
+              <ol type="a">
+                <li>5 dan 10</li>
+                <li>25 dan 5</li>
+                <li>10 dan 5</li>
+                <li>5 dan 25</li>
+              </ol>
+            </li>
+            <br>
+            <li>Pada persamaan 2x + 2y = 15; 4x + 3y = 12; 2x + 4y = 8, manakah yang termasuk konstanta?
+              <ol type="a">
+                <li>15, 2, dan 3</li>
+                <li>2, 3, dan 4</li>
+                <li>8, 12, dan 2</li>
+                <li>8, 12, dan 15</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Ada berapa suku pada persamaan 5x + 2y = 10?
+              <ol type="a">
+                <li>2</li>
+                <li>1</li>
+                <li>3</li>
+                <li>4</li>
+              </ol>
+            </li>
+            <br>
+            <li>Diketahui persamaan P: 3x + 5y = 26 dan Q: 4x – 2y = 11. Nilai x = 2 dan y = 4 …….
+              <ol type="a">
+                <li>memenuhi P dan Q</li>
+                <li>memenuhi P tetapi tidak memenuhi Q</li>
+                <li>tidak memenuhi P dan Q</li>
+                <li>memenuhi Q tetapi tidak memenuhi P</li>
+                <li>Bukan salah satu di atas</li>
+              </ol>
+            </li>
+            <br>
+            <li>Penyelesaian sistem persamaan: 4x + 6y = 34; 2x + 6y = 26 adalah………
+              <ol type="a">
+                <li>x = 4 dan y = 5</li>
+                <li>x = 4 dan y = 4</li>
+                <li>x = 4 dan y = 3</li>
+                <li>x = 5 dan y = 4</li>
+                <li>x = 5 dan y = 3</li>
+
+              </ol>
+            </li>
+            <br>
+            <li>Sistem persamaan: 3x – 4y = 5; 12x – 16y = 20 ………
+              <ol type="a">
+                <li>tidak mempunyai penyelesaian</li>
+                <li>mempunyai penyelesaian yang unik</li>
+                <li>mempunyai dua penyelesaian</li>
+                <li>mempunyai tiga penyelesaian</li>
+                <li>mempunyai lebih dari dua penyelesaian</li>
+                  
+              </ol>
+            </li>
+            <br>            
+            <li>Sistem persamaan: 2x + y = 5 dan x + 2y = 4 mempunyai penyelesaian yang ……
+              <ol type="a">
+                <li>unik</li>
+                <li>tak hingga</li>
+                <li>tidak konsisten</li>
+                <li>lebih dari dua penyelesaian</li>
+                <li>tidak punya penyelesaian</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Nilai x dan y yang memenuhi sistem persamaan: 6/x + 3/y = 7 dan 3/x + 9/y = 11 adalah….
+              <ol type="a">
+                <li>x = 1,5 dan y = 1</li>
+                <li>x = 1 dan y = 1,5</li>
+                <li>x = 2,5 dan y = 2</li>
+                <li>x = 2 dan y = 2,5</li>
+                <li>x = 2,5 dan y = 2,5</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>	Apabila 2x + 3y ≠ 0 dan 3x – 2y ≠ 0, maka himpunan penyelesaian dari sistem persamaan:
+              <ul style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+                <br>
+                <li>1/(2(2x+3y)) + 12/(7(3x-2y)) = 1/2</li>
+                <br>
+                <li>7/((2x+3y))  + 4/((3x-2y)) = 2</li>
+              </ul>
+              <br>
+               adalah ……
+               <ol type="a">
+                <li>{(x,y) | (1,0)}</li>
+                <li>{(x,y) | (1,-1)}</li>
+                <li>{(x,y) | (1,2)}</li>
+                <li>{(x,y) | (2,1)}</li>
+                <li>{(x,y) | (2,3)}</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Harga 7 buku tulis dan 3 pulpen = Rp11.700,00. Harga 6 buku tulis dan 5 pulpen = Rp11.000,00. Dengan demikian, harga buku tulis = ……
+              <ol type="a">
+                <li>Rp1.500,00</li>
+                <li>Rp1.000,00</li>
+                <li>Rp750,00</li>
+                <li>Rp550,00</li>
+                <li>Rp400,00</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Pada sebuah tempat parkir terdapat 84 kendaraan yang terdiri atas sepeda motor dan mobil. Setelah dihitung jumlah roda seluruhnya ada 220 buah. Jika tarif parkir untuk sepeda motor Rp1.000,00 dan untuk mobil Rp2.000,00, besar uang yang diterima tukang parkir adalah .... 
+              <ol type="a">
+                <li>Rp91.000,00</li> 
+                <li>Rp110.000,00 </li>
+                <li>Rp156.000,00 </li>
+                <li>Rp171.000,00</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Harga 2 baju dan 1 celana adalah Rp140.000,00. Harga 3 baju dan 2 celana Rp235.000,00. Harga 4 baju dan 5 celana adalah .... 
+              <ol type="a">
+                <li>Rp320.000,00</li>
+                <li>Rp430.000,00 </li>
+                <li>Rp450.000,00 </li>
+                <li>Rp520.000,00</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Di antara sistem persamaan berikut yang memiliki tak berhingga banyak penyelesaian untuk x, y ∈ R adalah ....
+              <ol type="a">
+                <li>x + y = 2 dan x – y = 5 </li>
+                <li>2x – 3 = y dan x – 1 = 2y </li>
+                <li>x + y = 2 dan x + y = 3 </li>
+                <li>2x + y = 1 dan 6x + 3y = 3 </li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Jumlah dua bilangan adalah 20. Bilangan yang satu adalah enam lebihnya dari bilangan yang lain. Hasil kali kedua bilangan tersebut adalah .... 
+              <ol type="a">
+                <li>71</li>
+                <li>73</li>
+                <li>80</li> 
+                <li>91</li>
+                  
+              </ol>
+            </li>
+            <br>
+            <li>Grafik persamaan garis y = 2x ditunjukkan oleh gambar ....
+              <br>
+              <br>
+              <br>
+              <ol type="a">
+                <li>
+                  <img src = "gambar project PMM/gambar soal 1.jpg" style="width:300px;height:300px">
+                </li>
+                <br>
+                <li >
+                  <img src = "gambar project PMM/gambar soal 2.jpg" style="width:300px;height:300px">
+                </li>
+
+                <br>
+                <li >
+                  <img src = "gambar project PMM/gambar soal 3.jpg" style="width:300px;height:300px ">
+                </li>
+                <br>
+                <br>
+
+                <li >
+                  <img src = "gambar project PMM/gambar soal 4.jpg" style="width:300px;height:300px">
+                </li>
+              </ol>
+              
+            </li>
+            
+          </ol>
+        
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+          
+        <h2 id="Evaluasi BAB 1" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">Evaluasi BAB 1</h2>
+          <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            <li>Bandingkan persamaan-persamaan berikut dengan bentuk persamaan ax + by = c, kemudian tentukan nilai a, b, dan c. </li>
+            <br>
+              <ol type="a">
+                <li>3x + 2y = 0</li> 
+                <li>b. 2x – 5y = 3 </li>
+                <li>x + 2y = 5 </li>
+                <li>d. x/3 -  y/5 = 1</li>               
+              </ol>
+            <br>
+            <li>Nyatakan persamaan berikut dalam bentuk ax + by = c, kemudian tentukan koefisien dari masing-masing variabel. </li>
+            <br>
+              <ol type="a">
+                <li>x = 2y – 5</li>
+                <li>x + 3y + 1 = 0 </li>
+                <li>3x – 1 = 2y </li>
+                <li>y = 1/2  x - 2</li>                           
+            </ol>
+            <br>
+            <li>Tentukan himpunan penyelesaian persamaan berikut jika x, y variabel pada himpunan bilangan cacah. Kemudian, gambar grafik dari masing-masing persamaan tersebut pada bidang koordinat Cartesius. </li>
+            <br>
+              <ol type="a">
+              <li>x + y = 3</li>
+              <li>2x + 3y = 6</li>
+              <li>x + 2y = 4</li>
+              <li>3x – y = 6 </li>                           
+              </ol>
+            <br>
+            <li>Tentukan persamaan dari grafik berikut ini. </li>
+            <br>
+              <ol type="a">
+                <li> <img src="gambar project PMM/gambar soal eval.jpg " style="width:300px; height:300px">            
+              </ol>
+            <br>
+            <li>Tentukan himpunan penyelesaian persamaan berikut jika x, y variabel pada himpunan bilangan real. Kemudian, gambarlah grafik dari masing-masing persamaan tersebut pada bidang Cartesius.</li>
+            <br>
+              <ol type="a">
+                <li>2x + y = 6 </li>
+                <li>2x + 3y = 12 </li>
+                <li>1/(2 ) y - x – 2 = 0</li>
+                <li>1/4 y - 1/(3 ) y = 1/(2 )</li>                              
+              </ol>
+            <br>
+            <li>Tentukan himpunan penyelesaian sistem persamaan berikut dengan menggunakan metode eliminasi, jika x dan y variabel pada himpunan bilangan real. </li>
+            <br>
+              <ol type="1">
+                <li>x + y = 1 dan x + 5y = 5</li>
+                <br>
+                <li>3x + 2y = 12 dan 2x – y = 8</li>
+                <br>
+                <li>2x + y = 5 dan 3x – 2y = 4 </li>
+                <br>
+                <li>3x + 2y = 12 dan 2x + 3y = 18 </li>
+                <br>
+                <li>x + y = 12 dan 3x – y = 4 </li>
+                <br>
+                <li>x + 2y = 4 dan 2x – y = 3</li> 
+                <br>
+                <li>2x – 4y = 10 dan x + 2y = 9 </li>
+                <br>
+                <li>x + y = 6 dan –x + 3y = 2 </li>
+                <br>
+                <li>x + 2y = 4 dan 2x + 4y = 5 </li>
+                <br>
+                <li>3x – y = 2 dan 6x – 2y = 4</li>                              
+              </ol>
+            <br>
+            <li>Tentukan himpunan penyelesaian dari sistem persamaan berikut dengan metode substitusi jika x, y variabel pada himpunan bilangan real.</li>
+            <br>
+              <ol type="1">
+                <li>3x + y = 4 dan –x + 2y = 1 </li>
+                <br>
+                <li>x + y = 5 dan y = x + 1 </li>
+                <br>
+                <li>x + 5y = –5 dan x + y + 5 = 0 </li>
+                <br>
+                <li>2x – 3y = 11 dan 3x + y = 0</li>
+                <br>
+                <li>x = y + 2 dan y = 2x – 5 </li>
+                <br>
+                <li>y = –x dan 3x + y = 2 </li>
+                <br>
+                <li>2x + 3y = 0 dan x + y = 1</li>
+                <br>
+                <li>2x + y + 5 = 2 dan 3y + 2x = –5 </li>
+                <br>
+                <li>4x + 3y = 6 dan 2x – y = 3 </li>
+                <br>
+                <li>2x + 4y = 6 dan 4x + 8y – 8 = 0</li>
+              </ol>
+            <br>
+            <li>Tentukan himpunan penyelesaian dari sistem persamaan linear dua variabel berikut dengan menggunakan metode gabungan, jika x, y ∈ R. </li>
+              <ol type="1">
+                <li>x + y = 7 dan x – y = 3 </li>
+                <br>
+                <li>x + 2y – 1 = 0 dan y – x + 4 = 0 </li>
+                <br>
+                <li>3x + 2y = 6 dan 2x – y = 5</li>
+                <br>
+                <li>2x + 5y = 8 dan x + 5y = 2 </li>
+                <br>
+                <li>y = 2x – 5 dan y = x + 3 </li>
+                <br>
+                <li>x = 2y – 3 dan y = 2x + 1 </li>
+                <br>
+                <li>x + 2y = 3 dan x + y = 5 </li>
+                <br>
+                <li>2x – 3y = 3 dan y = 2x – 1  </li>
+                <br>
+                <li>5x - y = 3 dan 10x - 5y = 15 </li>
+                <br>
+                <li>x + 4y = 8 dan 2x - y = 3</li>           
+              </ol>
+           
+          </ol>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <h2 id="Applikasi Penerapan SPLDV" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">Applikasi Penerapan SPLDV</h2>
+      <br>
+       <iframe scrolling="no" title="Applet SPLDV" src="https://www.geogebra.org/material/iframe/id/rqgz3dyc/width/1280/height/658/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1000px" height="500px" style="border:0px; margin-left:50px"> </iframe> 
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <h2 id="Video Pembelajaran SPLDV" style="margin-left:50px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align:left;color:blueviolet">Video Pembelajaran SPLDV</h2>
+      <br>
+      <iframe style="margin-left:50px" width="560" height="315" src="https://www.youtube.com/embed/954FEN7d5HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <iframe style="margin-left:50px" width="560" height="315" src="https://www.youtube.com/embed/kA4VSbTW-NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <iframe style="margin-left:50px" width="560" height="315" src="https://www.youtube.com/embed/85gLsvtxzbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="margin-left:50px"  width="560" height="315" src="https://www.youtube.com/embed/Sd6QQLYR4l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="margin-left:50px"  width="560" height="315" src="https://www.youtube.com/embed/kyYgFIbAtA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
+      <h2 id="BAB 2: SISTEM PERTIDAKSAMAAN LINEAR DUA VARIABEL" style="margin:50px; color:blueviolet; text-align:center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px;">BAB 2: SISTEM PERTIDAKSAMAAN LINEAR DUA VARIABEL</h2>
+        <h2 id="2.1 Pengertian Pertidaksamaan Linear Dua Variabel" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">2.1 Pengertian Pertidaksamaan Linear Dua Variabel</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            Pertidaksamaan linear dua variabel adalah kalimat terbuka yang menggunakan tanda pertidaksamaan, seperti >, <, ≤ , atau ≥, dan mengandung dua variabel yang berpangkat satu.
+            <br>
+            <br>
+            Pertidaksamaan dengan bentuk:
+            <br>       
+            <br>    
+            ax + by ≥ c;  	ax + by > c;  	ax + by ≤;  	ax + by < c
+            <br>
+            <br>
+            <em id="Gambar 20. Grafik Pertidaksamaan Linear Dua Variabel"  style="font-size:x-small">Gambar 20. Grafik Pertidaksamaan Linear Dua Variabel</em>
+            <br>
+            <img src="gambar project PMM/gambar 20.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+            <br>
+          </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2 id="2.2 Pengertian Sistem Pertidaksamaan Linear Dua Variabel" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">2.2 Pengertian Sistem Pertidaksamaan Linear Dua Variabel</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            Sistem pertidaksamaan linear dua variabel adalah dua atau lebih pertidaksamaan linear dua variabel, yang dimana antara pertidaksamaan yang satu dengan yang lain saling berkaitan.
+            <br>
+            <br>
+            <em id="Gambar 21. Grafik Sistem Pertidaksamaan Linear Dua Variabel"  style="font-size:x-small">Gambar 21. Grafik Sistem Pertidaksamaan Linear Dua Variabel</em>
+            <br>
+            <img src="gambar project PMM/gambar 21.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+            <br>
+            <br>
+            Bentuk umum dari sistem pertidaksamaan linear dua variabel: 
+            <br>
+            ax + by > c; ax + by ≥ c; ax + by < c; ax +by ≤ c    			dengan a, b, c ∈ R
+             
+          </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        
+        <h2 id="2.3 Sifat-sifat Pertidaksamaan" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">2.3 Sifat-sifat Pertidaksamaan</h2>  
+         <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+           Sebelum memahami sistem pertidaksamaan linear, kita harus terlebih dahulu memahami sifat-sifat dari pertidaksamaan itu sendiri.
+           <ol style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify" type="a">
+             <li>Sifat tak negatif 
+              Untuk a ∈ R maka a ≥ 0.
+             </li>
+             <br>
+             <br>
+             <li>Sifat transitif </li>
+             Untuk a, b, c ∈ R jika a < b dan b < c maka a < c;
+             <br>
+             <br>
+             jika a > b dan b > c maka a > c 
+             <br>
+             <br>
+             <li>Sifat penjumlahan</li>
+             Untuk a, b, c ∈ R jika a < b maka a + c < b + c
+             <br>
+             jika a > b maka a + c > b + c
+             <br>
+             Jika kedua ruas pertidaksamaan dijumlahkan dengan bilangan yang sama, tidak mengubah tanda ketidaksamaan. 
+             <br>
+             <br>
+             <li>Sifat perkalian</li>
+             Jika a < b, c > 0 maka ac < bc
+             <br>
+             Jika a > b, c > 0 maka ac > bc
+             <br>
+             Jika a < b, c < 0 maka ac < bc
+             <br>
+             <br>
+             Jika kedua ruas pertidaksamaan dikalikan bilangan (riil) positif tidak akan mengubah tanda ketidaksamaan, sedangkan jika dikalikan bilangan negatif akan mengubah tanda ketidaksamaan.
+             <br>
+             <br>
+             <li>Sifat kebalikan
+              <br>
+              Jika a > 0 maka 1/a> 0					
+              <br>
+              Jika a < 0 maka 1/a < 0
+             </li>
+           </ol>
+        
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2 id="2.4 Himpunan Penyelesaian Pertidaksamaan Linear Dua Variabel" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">2.4 Himpunan Penyelesaian Pertidaksamaan Linear Dua Variabel</h2>  
+           <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            Himpunan penyelesaian dari pertidaksamaan dapat digambarkan pada garis bilangan, khususnya untuk himpunan penyelesaian berupa interval. Batas-batas interval digambarkan dengan menggunakan tanda (bulatan penuh) atau (bulatan kosong). Tanda bulatan penuh menunjukkan bilangan tersebut termasuk ke dalam himpunan penyelesaian, dan sebaliknya tanda bulatan kosong menunjukkan bilangan tersebut tidak termasuk ke dalam himpunan penyelesaian. (Gumilar, 2008, p. 69)           
+            <br>
+            <br>
+            <em id="Gambar 22. Berbagai Tipe Himpunan Penyelesaian dari SPLDV"  style="font-size:x-small">Gambar 22. Berbagai Tipe Himpunan Penyelesaian dari SPLDV</em>
+            <br>
+            <img src="gambar project PMM/gambar 22.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:300px">
+            <br>
+            <br>
+            <br>
+            <strong>Garis bilangan Himpunan </strong>
+            <br>
+            <br>
+            <br>
+            1. Interval tertutup
+            <br>
+            {x | a ≤ x ≤ b, x∈R} = [a, b]
+            <br>
+            <img src="gambar project PMM/interval tertutup.png" style="width:200px; height:100px">
+            <br>
+            <br>
+            <br>
+            2. Interval setengah tertutup
+            <br>
+            {x | a ≤ x < b, x∈R} = [a, b) 
+            <br>
+            <img src="gambar project PMM/interval setengah tertutup_1.png" style="width:200px; height:100px">
+            <br>
+            <br>
+            {x | a < x ≤ b, x∈R} = (a, b]
+            <br>
+            <imgs src="gambar project PMM/interval setengah tertutup_2.png" style="width:200px; height:100px"></imgs>
+            <br>
+            <br>
+            <br>
+           3. Interval terbuka
+            {x | a < x < b, x∈R} = (a, b)
+            <br>
+            <img src="gambar project PMM/interval terbuka.png" style="width:200px; height:60px">
+            <br>
+            <br>          
+            <br>
+           4. Interval setengah garis
+            {x | x ≥ a, x∈R} = [a, ∞) 						
+            <br>
+            <img src="gambar project PMM/interval setengah garis_1.png" style="width:200px; height:70px">
+            <br>
+            <br>
+
+            {x | x > a, x∈R) = (a, ∞) 
+            <br>
+            <img src="gambar project PMM/interval setengah garis_2.png" style="width:200px; height:70px">
+            <br>
+            <br>
+            {x | x ≤ a, x∈R) = (-∞, a] 	
+            <br>
+            <img src="gambar project PMM/interval setengah garis_3.png"	style="width:200px; height:60px">
+            <br>
+            <br>
+            {x | x < a, x∈R) = (-∞, a)
+            <br>
+            <img src="gambar project PMM/interval setengah garis_4.png" style="width:200px; height:70px">
+            
+            <br>
+            <br>
+            Simbol ∞  atau -∞  merupakan perluasan ke arah tak berhingga negatif atau tak berhingga positif. Interval yang diperluas sampai tak terhingga dinamakan interval tak hingga. Interval yang titik-titik ujungnya berhingga disebut interval berhingga. Interval berhingga yang memuat satu titik ujung, tetapi tidak memuat titik ujung yang lain disebut interval setengah terbuka atau interval setengah tertutup.                    
+          </p>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+        <h2 id="2.5 Langkah Penyelesaian Pertidaksamaan Linear Dua Variabel" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">2.5 Langkah Penyelesaian Pertidaksamaan Linear Dua Variabel</h2>  
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            Berikut langkah penyelesaaian pertidaksamaan linear dua variabel menggunakan grafik:(Simangunsong, 2016)
+            <br>
+            <br>
+            1. Tetapkan persamaan garis yang diperoleh dari pertidaksamaan dengan merubah tanda pertidaksamaannya dengan tanda sama dengan, kemudian gambarlah titik-titik koordinat dari persamaan tersebut, lalu buat garis grafiknya pada sistem koordinat kartesius. Garis tersebut akan membatasi dua daerah yaitu satu di sebelah kiri dan satu di sebelah kanan (atau satu di bagian atas dan satu di bagian bawah)
+            <br>
+            <br>
+            <em id="Gambar 23. Batasan Kanan dan Kiri pada Grafik Pertidaksamaan Linear"  style="font-size:x-small">Gambar 23. Batasan Kanan dan Kiri pada Grafik Pertidaksamaan Linear</em>
+            <br>
+            <img src="gambar project PMM/gambar 23.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+            <br>
+            <br>
+            <em id="Gambar 24. Batasan Atas dan Bawah pada Grafik Pertidaksamaan Linear"  style="font-size:x-small">Gambar 24. Batasan Atas dan Bawah pada Grafik Pertidaksamaan Linear</em>
+            <br>
+            <img src="gambar project PMM/gambar 24.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+            <br>
+            <br>
+            2. Tetapkan satu titik sebagai acuan.
+            <br>
+            Misalnya titik (0,0). Substitusi titik (0,0) tersebut ke dalam pertidaksamaan. Jika titik (0,0) memenuhi pertidaksamaan, maka daerah yang mengandung titik (0,0) merupakan daerah penyelesaian. Arsirlah daerah yang mengandung titik (0,0) sebagai himpunan penyelesaian, seperti pada gambar di bawah ini: 
+            <br>
+            <br>
+            <em id="Gambar 25. Daerah Penyelesaian Pertidaksamaan Linear (Kiri Bawah)"  style="font-size:x-small">Gambar 25. Daerah Penyelesaian Pertidaksamaan Linear (Kiri Bawah)</em>
+            <br>
+            <img src="gambar project PMM/gambar 25.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+            <br>
+            <br>
+            <em id="Gambar 26. Daerah Penyelesaian Pertidaksamaan Linear (Atas Kanan)"  style="font-size:x-small">Gambar 26. Daerah Penyelesaian Pertidaksamaan Linear (Atas Kanan)</em>
+            <br>
+            <img src="gambar project PMM/gambar 26.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+            <br>
+            <br>
+            Jika titik (0,0) tidak memenuhi persamaan, maka tidak melewati titik (0,0) tersebut merupakan daerah penyelesaian. Arsirlah daerah yang tidak melewati atau tidak mengandung titik (0,0) sebagai himpunan penyelesaian, seperti gambar di atas.
+            <br>
+            <br>
+            Contoh: 
+           <br>
+            Gambarlah himpunan penyelesaian pertidaksamaan berikut:
+            <br>
+            a. 2x + 3y ≤ 6	
+            <br>
+            b. 2x + 3y ≥ 6 		
+            <br>
+            c. 2x – 3y ≤ 6		
+            <br>
+            d. 2x – 3y > 6
+            <br>
+            <br>
+            Jawab:
+            <br>
+            a. 2x + 3y ≤ 6
+            <br>
+            persamaan garisnya adalah: 2x + 3y = 6
+            <br>
+            memotong sumbu x di (3,0) dan sumbu y di (0,2)
+            <br>
+            misal titik (0,0) kita ambil sebagai patokan, kemudian disubstitusi ke pertidaksamaannya, yaitu:
+            <br>
+            2. 0 + 3. 0 ≤ 6 --> titik (0,0) memenuhi pertidaksamaan
+            <br> 
+            Daerah penyelesaian adalah daerah yang mengandung titik (0,0).
+            <br>
+            Himpunan penyelesaiannya adalah daerah yang diarsir pada Gambar dibawah ini.
+            <br>
+            <br>
+            <em id="Gambar 27. Arsiran Daerah Himpunan 2x + 3y ≤ 6"  style="font-size:x-small">Gambar 27. Arsiran Daerah Himpunan 2x + 3y ≤ 6</em>
+            <br>
+            <img src="gambar project PMM/gambar 27.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+            <br>
+            <br>
+            <em id="Gambar 28. Arsiran Daerah Himpunan 2x + 3y ≥ 6"  style="font-size:x-small">Gambar 28. Arsiran Daerah Himpunan 2x + 3y ≥ 6</em>
+            <br>
+            <img src="gambar project PMM/gambar 28.jpg" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:250px">
+            <br>
+            <br>
+            b. 2x + 3y ≥ 6
+            <br>
+            persamaan garisnya sama seperti pada a, yaitu 2x + 3y = 6
+            <br>
+            <br>
+            misal titik (0,0) kita ambil sebagai patokan, kemudian disubstitusi ke pertidaksamaannya, yaitu:
+            <br>
+            2. 0 + 3. 0 <s>≥</s> 6 --> titik (0,0) tidak memenuhi pertidaksamaan
+            <br>
+            Daerah penyelesaiannya adalah daerah yang diarsir pada Gambar di atas. 
+            <br>
+            <br>
+            c. 2x – 3y ≤ 6
+            <br>
+            persamaan garisnya adalah 2x – 3y = 6.
+            <br>
+            <br>
+            misal titik (0,0) kita ambil sebagai patokan, kemudian disubstitusi ke pertidaksamannya, yaitu:
+            <br>	2. 0 – 3. 0 ≤ 6 --> titik (0,0) memenuhi pertidaksamaan
+            <br>
+            <br>
+            	Daerah penyelesaiannya adalah daerah yang mengandung titik (0,0). Himpunan penyelesaiannya adalah daerah yang diarsir pada Gambar di bawah ini
+            <br>
+            <br>
+            <em id="Gambar 29. Arsiran Daerah Himpunan 2x – 3y ≤  6"  style="font-size:x-small">Gambar 29. Arsiran Daerah Himpunan 2x – 3y ≤  6</em>
+            <br>
+            <img src="gambar project PMM/gambar 29.png" style="margin-left:10px;margin-right:20px; margin-top: 0px; margin-bottom:20px;position:relative;width:300px;height:200px">
+            </p>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2 id="Ringkasan BAB 2" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Ringkasan BAB 2</h2>  
+            <ul style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <li>	Pertidaksamaan linear dua variabel adalah kalimat terbuka yang menggunakan tanda pertidaksamaan, seperti >, ≤ , atau ≥, dan mengandung dua variabel yang berpangkat satu. </li>
+              <br>
+              <li>Sistem pertidaksamaan linear dua variabel adalah dua atau lebih pertidaksamaan linear dua variabel, yang dimana antara pertidaksamaan yang satu dengan yang lain saling berkaitan.</li>
+              <br>
+              <li>Sifat-sifat pertidaksamaan 
+                  <ul>
+                    <li>Sifat tak negatif</li>
+                    <li>Sifat transitif</li>
+                    <li>Sifat penjumlahan</li>
+                    <li>Sifat Perkalian</li>
+                    <li>Sifat Kebalikan</li>
+                  </ul>
+              </li>
+                           
+              <br>
+              <li>Himpunan penyelesaian pertidaksamaan linear dua variabel biasanya berupa interval atau digambarkan pada garis bilangan, yang batas-batasnya digambarkan menggunakan tanda bulat penuh atau bulat kosong</li>
+              <br>
+              <li>Langkah penyelesaian pertidaksamaan linear dua variabel:
+                  <ol type="a">
+                    <li>Tetapkan persamaan garis yang diperoleh dari pertidaksamaan, kemudian buat garis grafiknya pada sistem koordinat kartesius berdasarkan titik koordinat</li>
+                    <li>Substitusi titik (0,0) tersebut ke dalam pertidaksamaan, lalu arsirlah daerah yang mengandung titik (0,0) sebagai himpunan penyelesaian</li>
+                  </ol>
+              </li>
+            </ul></u>
+
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+        <h2 id="Latihan BAB 2" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Latihan BAB 2</h2>  
+          <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <li>Himpunan penyelesaian sistem pertidaksamaan: 2x + y ≥ 4; x + 2y ≥ 4; x ≥ 0 dan y ≥ 0, dapat digambarkan dengan …….</li>
+              <br>
+                <ol type="a">
+                  <li> <img src="gambar project PMM/gambar latihan bab 2_1.png" style="width:300px; height:300px"> </li>
+                  <br>
+                  <br>
+                  <li> <img src="gambar project PMM/gambar latihan bab 2_2.png" style="width:300px; height:300px"></li>
+                  <br>
+                  <br>
+                  <li> <img src="gambar project PMM/gambar latihan bab 2_3.png" style="width:300px; height:300px"></li>
+                  <br>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_4.png" style="width:300px; height:300px"></li>
+                  <br>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_5.png" style="width:300px; height:300px"></li>
+
+                </ol>
+              <br>
+              <br>
+              <li>Daerah penyelesaian sistem pertidaksamaan: 3x – y ≥ 0; 3y + 4x ≤ 24; y ≤ 3 dan y ≥ 0 terletak pada daerah yang berbentuk ….</li>
+                <ol type="A">
+                  <br>
+                  <li>Trapesium</li>
+                  <br>
+                  <li>Persegi panjang</li>
+                  <br>
+                  <li>Segitiga</li>
+                  <br>
+                  <li>Segiempat</li>
+                  <br>
+                  <li>Segilima</li>
+                    
+                    
+                    </li>
+
+                </ol>
+              <br>
+              <br>
+              <li>Daerah yang dibatasi sistem pertidaksamaan: 2x + y ≤ 10; x + 2y ≤ 10; x ≥ 0; dan y ≥ 0 dalam koordinat kartesius berbentuk……</li>
+              <br>
+                <ol type="A">
+                  <br>
+
+                  <li>Trapesium</li>
+                  <br>
+                  <li>Persegi panjang</li>
+                  <br>
+                  <li>Segitiga</li>
+                  <br>
+                  <li>Segiempat</li>
+                  <br>
+                  <li>Segilima</li>
+
+
+                </ol>
+              <br>
+              <br>
+              <li>Daerah yang memenuhi sistem pertidaksamaan: x + y ≤ 4; 2x – y ≤ 4; x ≥ 0; dan y ≥ 0 adalah……</li>
+              <br>
+                <img src="gambar project PMM/gambar latihan bab 2_6.png" style="width:300px;height:200px">
+                <br>
+                <ol type="A">
+                  <li>OACEG</li>
+                  <br>
+                  <li>ABC</li>
+                  <br>
+                  <li>CDE</li>
+                  <br>
+                  <li>EFG</li>
+                  <br>
+                  <li>OADG</li>
+                </ol>
+                <br>
+              <li>Titik di bawah ini, yang bukan merupakan titik sudut (titik ekstrim) dari daerah penyelesaian sistem pertidaksamaan: 2x + y ≤ 50; 4x + 3y ≤ 120; x ≥ 0; dan y ≥ 0 adalah ……</li>
+              <br>
+                <ol type="A">
+                  <li>(0,0)</li>
+                  <br>
+                  <li>(0,40)</li>
+                  <br>
+                  <li>(15,20)</li>
+                  <br>
+                  <li>(25,0)</li>
+                  <br>
+                  <li>(0,50)</li>
+                </ol>
+                  
+                <br>
+
+              <li>Himpunan penyelesaian sistem pertidaksamaan: x + y ≤ 4; 2x + 3y ≥ 6; x ≤ 3y dan y ≤ 3x, dapat digambarkan dengan…..</li>
+              <br>
+
+                <ol type="A">
+                  <li><img src="gambar project PMM/gambar latihan bab 2_7.png " style="width:300px;height:300px"></li>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_8.png" style="width:300px;height:300px"></li>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_9.png"style="width:300px;height:300px" ></li>
+                  <br>       
+                  <li><img src="gambar project PMM/gambar latihan bab 2_10.png" style="width:300px;height:300px"> </li>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_11.png" style="width:300px;height:300px"> </li>
+                </ol>
+              <br>
+              <li>Daerah yang diarsir di bawah ini merupakan penyelesaian dari sistem pertidaksamaan …</li>
+              <br>
+              <img src="gambar project PMM/gambar latihan bab 2_12.jpg" style="width:300px;height:300px">
+                <ol type="A">
+                  <li>2x + y ≤ 6; 4x + 5y ≤ 20; x ≥ 0; y ≥ 0</li>
+                  <br>
+                  <li>2x + y ≥  6; 4x + 5y ≥ 20; x ≥ 0; y ≥ 0</li>
+                  <br>
+                  <li>x + 2y ≥  6; 5x + 4y ≥ 20; x ≥ 0; y ≥ 0</li>
+                  <br>
+                  <li>x + 2y ≤ 6; 5x + 4y ≤ 20; x ≥ 0; y ≥ 0</li>
+                  <br>
+                  <li>x + 2y ≤ 6; 5x + 4y ≤ 20; x ≤ 0; y ≤  0</li>
+                </ol>
+                <br>
+              <li>Himpunan penyelesaian dari x + 2y ≤ 6; 2x + y ≥ 6; x ≥ 0; y ≥ 0 dapat dinyatakan dengan….</li>
+                <ol type="A">
+                  <li><img src="gambar project PMM/gambar latihan bab 2_13.png" style="width:300px;height:300px"></li>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_14.png"style="width:300px;height:300px" > </li>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_15.png" style="width:300px;height:300px"> </li>
+                  <br>
+                  <li><img src="gambar project PMM/gambar latihan bab 2_16.png" style="width:300px;height:300px"></li>
+
+                </ol>
+              <br>
+              <li>Sistem Pertidaksamaan di bawah ini, yang penyelesaiannya merupakan segitiga siku-siku adalah …</li>
+              <br> 
+                <ol type="A">
+                  <li>3x + 2y ≤ 12; 2x - 3y ≥ -6; x + 2y ≥ 4</li>
+                  <br>
+                  <li>2x + y ≤ 6; 2x - 3y ≥ -6; x + 2y ≥ 4</li>
+                  <br>
+                  <li>3x + 2y ≤ 12; 2x + 3y ≥ -6; x + 2y ≥ 4</li>
+                  <br>
+                  <li>2x + y ≤ 6; 2x + 3y ≥ -6 ; x + 2y ≥ 4</li>
+                  <br>
+                  <li>2x + y ≤ 6; 2x - 3y ≥ -6; x - 2y ≥ 4</li>
+                </ol>
+              <br>
+              <li>Daerah yang diarsir pada gambar di bawah ini, dapat dinyatakan dengan ….</li>
+              <br>
+                <ol type="A">
+                  <li>2 ≤ x ≤ 4</li>
+                  <br>
+                  <li>2 ≤ y ≤ 4</li>
+                  <br>
+                  <li>x ≥ 2 atau x ≤ 4</li>
+                  <br>
+                  <li>y ≥ 2 atau y ≤ 4</li>
+                  <br>
+                  <li>x ≥ 2 atau y ≤ 4</li>
+                </ol>
+              <br>
+              <li>Pertidaksamaan yang tidak sesuai untuk daerah yang diarsir pada gambar di bawah ini adalah…</li>
+              <br>
+              <img src="gambar project PMM/gambar latihan bab 2_17.png" style="width:300px;height:300px">
+                <ol type="A">
+                  <li>x + y ≤ 3</li>
+                  <br>
+                  <li>-x + y ≤ 3</li>
+                  <br>
+                  <li>x – y ≤ 3</li>
+                  <br>
+                  <li>x - y ≥ 3</li>
+                  <br>
+                  <li>-x + y ≥  3</li>
+
+                </ol>
+
+          </ol>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+  
+        <h2 id="Evaluasi BAB 2" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Evaluasi BAB 2</h2>  
+          
+            <ol type="1" style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <li>Arsirlah himpunan penyelesaian dari masing-masing pertidaksamaan berikut ini pada sistem koordinat Cartesius.</li>
+              <br>
+                <ol type="a">
+                  <li>x + 3y ≤ 9</li>
+                  <br>
+                  <li>x – 2y ≤ 4</li>
+                  <br>
+                  <li>-x + 4y ≤ 8</li>
+                  <br>
+                  <li>3x + y ≥ 6</li>
+                  <br>
+                  <li>2x – 5y ≥ 10</li>
+                  <br>
+                  <li>-4x + 3y ≥ 0</li>
+                  <br>
+                  <li>x ≥ 2</li>
+                  <br>
+                  <li>x ≤ 4</li>
+                  <br>
+                  <Li>y ≥ -2</Li>
+                </ol>
+              <br>
+              <li>Jumlah panjang dan lebar suatu persegi panjang adalah 32 cm, sedangkan luasnya 240 cm<sup>2</sup>. Tentukan:</li>
+              <br>
+                <ol type="a">
+                  <li>panjang dan lebarnya</li>
+                  <br>
+                  <li>kelilingnya</li>
+                  <br>
+                  <li>panjang diagonal persegi Panjang</li>
+                </ol>
+              <br>
+              <li>Selisih umur seorang ayah dan anak perempuannya adalah 26 tahun, sedangkan lima tahun yang lalu jumlah umur keduanya 34 tahun. Hitunglah umur ayah dan anak perempuannya dua tahun yang akan datang.</li>
+              <br>
+              <li>Sebuah toko kelontong menjual dua jenis beras sebanyak 50 kg. Harga 1 kg beras jenis I adalah Rp6.000,00 dan jenis II adalah Rp6.200,00/kg. Jika harga beras seluruhnya Rp306.000,00 maka:</li>
+              <br>
+                <ol type="a">
+                  <li>susunlah sistem persamaan dalam x dan y</li>
+                  <li>tentukan nilai x dan y</li>
+                  <li>tentukan jumlah harga 4 kg beras jenis I dan 7 kg beras jenis II</li>
+                </ol>
+              <br>
+              <li>Asti dan Anton bekerja pada sebuah perusahaan sepatu. Asti dapat membuat tiga pasang sepatu setiap jam dan Anton dapat membuat empat pasang sepatu setiap jam. Jumlah jam bekerja Asti dan Anton 16 jam sehari, dengan banyak sepatu yang dapat dibuat 55 pasang. Jika banyaknya jam bekerja keduanya tidak sama, tentukan lama bekerja Asti dan Anton. </li>
+              <br>
+              <li>Dalam sebuah pertandingan sepak bola, terjual karcis kelas I dan kelas II sebanyak 500 lembar. Harga karcis kelas I adalah Rp8.000,00, sedangkan harga karcis kelas II adalah Rp6.000,00. Jika hasil penjualan seluruh karcis adalah Rp2.950.000,00, tentukan banyak karcis masing-masing kelas I dan kelas II yang terjual.</li>
+              <br>
+              <li>Seorang tukang jahit ingin membuat 2 model kemeja yang menggunakan 2 jenis kain. Kemeja model pertama memerlukan 1,5 meter kain jenis pertama dan 0,5 meter kain jenis kedua. Sementara kemeja model kedua memerlukan 1,4 meter kain jenis pertama dan 0,6 meter kain jenis kedua. Kain jenis pertama yang tersedia ada 180 meter dan kain jenis kedua ada 70 meter. Misal banyak kemeja model pertama yang akan dibuat = x dan kemeja model kedua = y, buatlah model matematika yang sesuai dengan masalah tersebut, kemudian gambarkanlah grafik penyelesaiannya pada grafik Cartesius.</li>
+              <br>
+              <li>Seorang manager ingin merencanakan pemasangan iklan produknya, untuk mencapai 7.200.000 calon pembeli yang diantaranya terdapat 640.000 berpenghasilan di atas Rp45.000.000 per tahun. Pembaca yang dicapai koran setiap terbit 300.000 orang dan penonton acara televisi ada sebanyak 2.400.000 orang. Di antara pembaca koran terdapat 40.000 orang yang berpendapatan lebih dari Rp45.000.000,00 per tahun dan di antara penonton acara televisi terdapat 160.000 orang yang berpendapatan lebih dari Rp45.000.000,00 per tahun. Misal banyak majalah yang dipilih = x, dan banyak televisi = y, buatlah model matematika yang sesuai dengan masalah tersebut, kemudian gambarkanlah daerah penyelesaiannya pada grafik Cartesiu</li>
+
+
+            </ol>
+        
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+    <h2 id="Applikasi Penerapan SPtLDV" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Applikasi Penerapan SPtLDV</h2> 
+      <iframe scrolling="no" title="Applet SPtLDV" src="https://www.geogebra.org/material/iframe/id/twgtqt7p/width/1280/height/658/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1000px" height="500px" style="border:0px; margin-left:50px"> </iframe>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+    <h2 id="Video Pembelajaran SPtLDV" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Video Pembelajaran SPtLDV</h2> 
+      <iframe style="margin-left:50px" width="560" height="315" src="https://www.youtube.com/embed/c5NBcC2xMx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <iframe style="margin-left:50px" width="560" height="315" src="https://www.youtube.com/embed/SlWGw3OhgXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <iframe style="margin-left:50px" width="560" height="315" src="https://www.youtube.com/embed/nky5dpzgG3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <h2 id="DAFTAR PUSTAKA" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">DAFTAR PUSTAKA</h2>
+        <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+              <br>
+              Gumilar, H. S. (2008). Matematika (Vol. 8).
+              <br>
+              <br>
+              Muawwana, N. A. (2020). SISTEM PERSAMAAN LINEAR DUA VARIABEL.
+              <br>
+              <br>
+              Nuharini, D., & Wahyuni, T. (2008). MATEMATIKA KONSEP DAN APLIKASINYA Untuk SMP/MTs Kelas VII (Vol. 5).<br>
+              <br>
+              <br>
+              Nurlianawati. (2020). SISTEM PERSAMAAN LINEAR DUA VARIABEL Untuk SMA/MA/SMK Kelas X.
+              <br>
+              <br>
+              Simangunsong, W. (2016). PKS MATEMATIKA WAJIB KELAS X SMA dan MA Kurikulum 2013 Edisi Revisi (Frederik M. Poyk, Ed.; Revisi). GEMATAMA.
+            </p>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+    <h2 id="GLOSARIUM" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">GLOSARIUM</h2>
+         <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+          <br>
+          <b>A</b>
+          <br>
+          Aljabar = cabang matematika yang menggunakan tanda-tanda dan huruf-huruf untuk menggambarkan atau mewakili angka-angka untuk bilangan yang tidak diketahui); ilmu hitung
+          <br>
+          <b>E</b>
+          <br>
+          Eliminasi = pengeluaran; penghilangan
+          <br>
+          <b>G</b>
+          <br>
+          Garis = deretan titik-titik yang saling berhubungan
+          <br>
+          Gradien = nilai yang menunjukkan kemiringan suatu garis lurus.
+          <br>
+          Grafik = penyajian informasi dalam bentuk gambar, bukan dalam bentuk teks
+          <br>
+          <b>H</b>
+          <br>
+          Himpunan = kumpulan; perkumpulan
+          <br>
+          <b>I</b>
+          <br>
+          Interval = jarak yang terletak antara dua nilai yang Diketahui
+          <br>
+          <b>K</b>
+          <br>
+          Koefisien = bagian suku yang berupa bilangan atau konstan yang biasanya dituliskan sebelum lambang peubah
+          <br>
+          Konstanta = sebuah bilangan yang menyatakan banyaknya jumlah variabel yang sejenis
+          <br>
+          Koordinat = bilangan yang dipakai untuk menunjukkan lokasi suatu titik dalam garis, permukaan, atau ruang.
+          <br>
+          <br>
+          Koordinat Kartesius = koordinat yang menetapkan setiap titik secara unik dalam bidang dengan serangkaian koordinat numerik, yang merupakan jarak yang bertanda titik dari dua garis berorientasi tegak lurus tetap, diukur dalam satuan panjang yang sama.         
+          <br>
+          <b>M</b>
+          <br>
+          Metode = cara teratur yang digunakan untuk melaksanakan suatu pekerjaan agar tercapai sesuai dengan yang dikehendaki; cara kerja yang bersistem untuk memudahkan pelaksanaan suatu kegiatan guna mencapai tujuan yang ditentukan
+          <br>
+          <b>P</b>
+          <br>
+          Persamaan = kalimat terbuka yang memuat hubungan sama dengan "=" yang belum jelas kebenarannya, sehingga perlu dibuktikan dengan mencari pengganti nilai dari variabel (peubah) yang diberikan
+          <br>
+          Persamaan Linear = persamaan berderajat satu
+          <br>
+          Pertidaksaman = kalimat/pernyataan matematika yang menunjukkan perbandingan ukuran dua objek atau lebih
+          <br>
+          <b>R</b>
+          <br>
+          Relasi = hubungan; kaitan 
+          <br>
+          <b>S</b>
+          <br>
+          Sistem 	= suatu kumpulan atau himpunan dari suatu unsur, komponen, atau variabel yang terorganisasi, saling tergantung satu sama lain dan terpadu
+          <br>
+          Substitusi = penggantian
+          <br>
+          <b>T</b>
+          <br>
+          Titik = bentuk paling dasar dalam geometri
+          <br>
+          Titik koordinat = gabungan dari koordinat x dan y dan dilambangkan dengan (x, y)         
+          <br>
+          <b>V</b>
+          <br>
+          Variabel = peubah 
+         </p>
+     
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <h2 id="INDEKS" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">INDEKS</h2>   
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            <br>
+            <b>A</b>
+            <br>
+            Aljabar, 37
+            <br>
+            <b>E</b>
+            <br>
+            Eliminasi, 7, 12, 15, 37
+            <br>
+            <b>G</b>
+            <br>
+            Garis, 24, 25, 37
+            <br>
+            Gradien, 37
+            <br>
+            Grafik, 7, 10, 14, 37
+            <br>
+            <b>H</b>
+            <br>
+            Himpunan, 23, 24, 28, 29, 37
+            <br>
+            <b>I</b>
+            <br>
+            Interval, 24, 25, 37
+            <br>
+            <b>K</b>
+            <br>
+            Koefisien, 6, 37
+            <br>
+            Konstanta, 6, 37
+            <br>
+            Koordinat, 37
+            <br>
+            Koordinat Kartesius, 37
+            <br>
+            <b>M</b>
+            <br>
+            Metode, 7, 8, 10, 12, 13, 14, 15, 37
+            <br>
+            <b>P</b>
+            <br>
+            Persamaan, i, viii, 1, 4, 5, 7, 8, 9, 10, 14, 37
+            <br>
+            Persamaan Linear, 1, 3, 4, 5, 7, 8, 9, 10, 37
+            <br>
+            Pertidaksaman, 37
+            <br>
+            <b>R</b>
+            <br>
+            Relasi, 37
+            <br>
+            <b>S</b>
+            <br>
+            Sistem, i, 4, 5, 7, 8, 9, 10, 14, 16, 22, 28, 37
+            <br>
+            Substitusi, 7, 8, 11, 13, 15, 26, 28, 37
+            <br>
+            <b>T</b>
+            <br>
+            Titik, 15, 30, 37
+            <br>
+            Titik koordinat, 37
+            <br>
+            <b>V</b>
+            <br>
+            Variabel, i, 1, 4, 5, 7, 10, 22, 23, 25, 37, 38
+ 
+ 
+
+          </p>
+
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
+      <h2 id="BIOGRAFI" style="margin:15px; color:blueviolet; text-align:center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 60px; margin-left: 50px; margin-right: 50px">BIOGRAFI</h2>   
+        <h2 id="Biografi Dosen Pengampu" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Biografi Dosen Pengampu</h2>
+          <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+            Dr. Aan Hendrayana, M. Pd merupakan salah satu dosen dari Universitas Sultan Ageng Tirtayasa, khususnya pada jurusan Pendidikan Matematika FKIP Untirta. Beliau mengajar mata kuliah Pengembangan Multimedia Matematika. Karya tulis yang telah dibuatnya cukup banyak, dimulai dari tahun 2012 hingga tahun 2017 totalnya mencapai sekitar 50 buah. Beliau merupakan salah satu anggota dari I-MES (Indonesian Mathematics Educators Society). Tak hanya itu, beliau juga pernah menjabat sebagai Wakil Dekan II FKIP Untirta. Beliau juga memiliki banyak video pembelajaran yang diupload di akun youtube nya, terutama pembelajaran yang berkaitan dengan multimedia. Adapun kemampuan yang dimiliki beliau di antaranya kemampuan mengajar, pedagogi dan pendidikan, pembelajaran yang ditingkatkan teknologi, pembelajaran kolaboratif, dan lain-lain.
+          </p>
+        
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+        <h2 id="Biografi Penulis" style="margin: 30px 50px; color:blueviolet; text-align:left;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Biografi Penulis</h2>
+         <p style="font-family:Arial, Helvetica, sans-serif; margin: 5px 50px 5px;text-align:justify">
+          Saya Anggi Arrochman, biasa dipanggil Anggi. Saya merupakan anak ketiga dari tiga bersaudara, kakak pertama saya perempuan dan kakak kedua saya laki-laki. Saya lahir di Jakarta, tepatnya pada tanggal 25 November 2002. Saya memiliki hobi diantaranya menggambar, melukis, shalawat, dan hal-hal lain yang berbau seni. Saya tinggal dan dibesarkan di daerah Tangerang, tepatnya di Kutabumi, Kabupaten Tangerang. Saya dibesarkan dengan penuh kasih sayang dari kedua orang tua. Semasa kecil, saya merupakan orang yang pendiam, sulit bersosialisasi, pemalu, dan penakut. Namun, semakin berjalannya waktu, saya menjadi orang yang lebih berani berinteraksi dengan sekitar, bisa bersosialisasi, dan menyesuaikan diri dengan lingkungan sekitar. 
+          Pada tahun 2007-2009 saya bersekolah di TK Al-Amanah Kutabaru, Tangerang. Semasa TK, saya dan teman-teman pernah mengikuti lomba paduan suara. Lalu, pada tahun 2009-2015 saya melanjutkan pendidikan di SDIT Muhammadiyah Pasar Kemis. Saat di bangku SD, saya kurang bisa berinteraksi dengan teman-teman. Namun, mulai kelas 3 SD saya mulai bisa berinteraksi dengan teman-teman sekitar. Di bangku SD juga saya pernah mengikuti Dokcil, yang merupakan singkatan dari dokter cilik. Saya tertarik masuk Dokcil semasa SD karena saat itu saya bercita-cita ingin menjadi seorang dokter. Kemudian, pada tahun 2015-2018 saya lanjut bersekolah di MTsN 1 Kota Tangerang, tepatnya berada di daerah Cikokol, Kota Tangerang. Saat di MTs, saya hanya mengikuti ekstrakulikuler Paduan suara, tidak mengikuti organisasi OSIS atau semacamnya. Lalu, pada tahun 2018-2021 saya melanjutkan sekolah di SMAN 4 Kota Tangerang. Di SMA, saya juga tidak mengikuti organisasi apa pun, melainkan hanya ekstrakulikuler, dan pernah menjadi pengurus dari ekstrakulikuler Traditional Dance. Pencapaian yang pernah saya dapatkan selama di SMAN 4 Kota Tangerang, hanyalah tingkat antarkelas. Saat di SMA, saya pernah mengikuti lomba TetraScience yang memang dikhususkan di SMAN 4 Kota Tangerang untuk bisa mencetak siswa-siswi yang berprestasi. Saat mengikuti Tetrascience bidang matematika, saya hanya terpilih sebagai 5 besar, yang dimana saat itu diseleksi lagi. Namun, saya gagal dalam seleksi itu. Adapun pencapaian saya yang lain masih di lomba antarkelas di SMAN 4 Kota Tangerang. Saat itu, saya mengikuti lomba tahfidz qur’an, dan Alhamdulillah mendapat juara harapan 1. Setelah lulus SMA, saya melanjutkan pendidikan perguruan tinggi di Universitas Sultan Ageng Tirtayasa, tepatnya pada jurusan pendidikan matematika. Kini, sebagai mahasiswa saya ingin mencari banyak pengalaman. Oleh karena nya, saat ini saya sedang mengikuti UKM PSQ Untirta dan kepengurusan Himatika FKIP Untirta. 
+                    
+         </p>
+        </p>
+
+
+
+
+
+
+    <script src="script.js"></script>
+        </body>
+</html>

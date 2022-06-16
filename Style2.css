@@ -1,0 +1,418 @@
+/* Google Fonts Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins', sans-serif;
+
+}
+
+.container {
+    display:flex;
+    min-height: 100 vh;
+
+}
+
+.main-content{
+    background-color:blanchedalmond;
+    flex-grow: 1;
+
+}
+
+.main-content .isi {
+    font-family:'Ubuntu';
+    text-align:center;
+    color:darkgoldenrod;
+}
+
+
+.sidebar {
+    top:0;
+    left:0;
+    height:100%;
+    width:260px;
+    background-color:rgb(108, 69, 17);
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    transition: all ease-in 0.5s;
+    z-index:100;
+
+    
+    
+}
+
+
+.sidebar.close {
+    width:70px;
+    transition: all ease-out 0.5s;
+    
+}
+
+
+
+
+.sidebar.close .logo-details .logo_name{
+    opacity:0;
+    pointer-events: none;
+    transition-delay: 0;
+}
+
+.sidebar .logo-details {
+    height:60px;
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+
+.sidebar .logo-details i {
+    font-size:30px;
+    height:50px;
+    min-width:78px;
+    text-align:center;
+    line-height:50px;
+    color:white;
+}
+
+.sidebar .logo-details .logo_name {
+    font-size: 20px;
+    color:white;
+    font-weight:500;
+    white-space:nowrap;
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+
+}
+
+.sidebar .nav-links {
+    height:100%;
+    padding-top:30px;
+}
+
+.sidebar .nav-links {
+    overflow: visible;
+}
+
+.sidebar .nav-links li {
+    position: relative;
+    list-style: none;
+    transition: all 0.4s ease;
+}
+
+.sidebar .nav-links li:hover {
+    background-color:rgb(174, 140, 97);
+    margin-left:5px;
+
+}
+
+
+.sidebar .nav-links li .icon-link {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sidebar.close .nav-links li .icon-link {
+    display: block;
+}
+
+.sidebar .nav-links li i {
+    height:50px;
+    min-width:78px;
+    text-align:center;
+    line-height:50px;
+    color:white;
+    font-size:18px;
+    transition: all ease 0.3s;
+    cursor:pointer;
+}
+
+
+
+.sidebar .nav-links li.showMenu i.arrow {
+    transform:rotate(-180deg);
+}
+
+.sidebar.close .nav-links i.arrow {
+    display:none;
+}
+
+.sidebar .nav-links li a {
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+
+}
+.sidebar .nav-links li a .link-name {
+    font-size:17px;
+    font-weight:300;
+    color: white;
+    transition: all 0.8s ease;
+}
+
+.sidebar.close .nav-links li a .link-name {
+    opacity:0;
+    pointer-events: none;
+}
+
+.sidebar .nav-links li .sub-menu {
+    padding: 6px 6px 14px 80px;
+    margin-top:-10px;
+    background-color: rgb(174, 140, 97);
+    display:none
+    
+}
+
+.sidebar .nav-links li.showMenu .sub-menu {
+    display:block;
+}
+
+.sidebar .nav-links li .sub-menu a {
+    color: white;
+    font-size:13px;
+    padding: 3px 0;
+    white-space:nowrap;
+    opacity:0.6;
+    transition: all 0.3 ease;
+}
+
+.sidebar .nav-links li .sub-menu a:hover{
+    opacity:1;
+}
+
+.sidebar.close .nav-links li .sub-menu {
+    position:absolute;
+    left:100%;
+    top: -10px;
+    margin-top:0;
+    padding: 10px 20px;
+    border-radius: 0 6px 6px 0;
+    transition: all ease 0.4s ease;
+    opacity: 0;
+    display:block;
+    pointer-events: none;
+    
+}
+
+.sidebar.close .nav-links li:hover .sub-menu {
+    top:0;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.sidebar .nav-links li .sub-menu .link-name {
+    display:none;
+}
+
+.sidebar.close .nav-links li .sub-menu .link-name {
+    display:none;
+}
+.sidebar.close .nav-links li .sub-menu .link-name{
+    font-size:13px;
+    opacity:1;
+    display:block;
+}
+
+
+.sidebar .nav-links li .sub-menu.blank {
+    opacity:1;
+    pointer-events:auto;
+    padding: 12px 20px 12px 16px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.sidebar .nav-links li:hover .sub-menu.blank {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.sidebar .profile-details {
+    position:relative;
+    bottom:0;
+    width:260px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:rgb(188, 151, 96);
+    padding: 6px 0;
+    transition: all 0.4s ease;
+}
+
+.sidebar.close .profile-details {
+    width:70px;
+}
+
+.sidebar .profile-details .profile-content {
+    display:flex;
+    align-items: center;
+}
+
+.sidebar .profile-details img {
+    height:52px;
+    width:52px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 0 14px 0 12px;
+    background-color:rgb(114, 54, 11);
+    padding: 8px;
+}
+
+.sidebar .profile-details .profile-name,
+.sidebar .profile-details .job {
+    color: white;
+    font-size:15px;
+    font-weight:400;
+    white-space: nowrap;
+}
+
+.sidebar .profile-details .job {
+    font-size:12px;
+}
+
+.sidebar.close .profile-details i,
+.sidebar.close .profile-details .profile-name,
+.sidebar.close .profile-details .job {
+    display:none;
+
+}
+
+
+
+
+
+
+
+
+/* Toogle menu */
+
+#menu-button{
+    width:32px;
+    position: absolute;
+    overflow:hidden;
+}
+
+#menu-label {
+    position: relative;
+    display:block;
+    height:20px;
+    cursor:pointer;
+
+}
+
+#menu-checkbox {
+    display:none;
+}
+
+#hamburger, #menu-label:after, #menu-label:before{
+    position:absolute;
+    left:0;
+    width: 100%;
+    height:4px;
+    background-color: brown;
+}
+
+#menu-label:after, #menu-label:before {
+    content:"";
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#menu-label:before {
+    top:0;
+}
+
+#menu-label:after {
+    top:8px;
+
+}
+
+#hamburger {
+    top: 16px;
+
+}
+
+#hamburger:before{
+    content:"MENU";
+    position:absolute;
+    top: 5px;
+    right: 0;
+    left:0;
+    color:brown;
+    font-size: 10px;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Ubuntu';
+    cursor:pointer;
+
+}
+
+#menu-checkbox:checked + #menu-label::before {
+    left:-39px;
+
+}
+
+#menu-checkbox:checked + #menu-label::after{
+    left:39px;
+
+}
+
+#menu-checkbox:checked + #menu-label #hamburger:before {
+    animation: moveUpThenDown 0.8s ease 0.2s forwards,
+    shakeUp 0.8s ease 0.2s forwards,
+    shakedown 0.2s ease 0.8s forwards;
+
+}
+
+@keyframes moveUpThenDown {
+    0% {
+        top:0;
+    }
+    50% {
+        top: -27px;
+
+    }
+    100% {
+        top: -14px;
+    }
+}
+
+@keyframes shakeUp {
+    0% {
+        transform: rotateZ(0);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+
+    }
+    50% {
+        transform: rotateZ(0);
+    }
+    75% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+    
+}
+
+@keyframes shakedown {
+    0% {
+        transform: rotateZ(0);
+    }
+    80% {
+        transform: rotateZ(3deg);
+    }
+    90% {
+        transform: rotateZ(-3deg);
+    }
+    100% {
+        transform: rotateZ(0);
+    }
+}
